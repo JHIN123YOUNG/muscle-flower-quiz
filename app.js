@@ -1,4 +1,4 @@
-import { QuizGame, SIDES } from './game.js';
+import { QuizGame, SIDES } from './game.js?v=20261016-setup-v2';
 
 const $ = id => document.getElementById(id);
 const escape = value => String(value ?? '').replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
