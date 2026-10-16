@@ -26,8 +26,8 @@ function applyLanguage(value) {
 }
 function communicate(zh, en) { $('live-status').textContent = language === 'zh' ? zh : language === 'en' ? en : text(zh, en); }
 const stageCopy = {
-  idle: ['一花在手，一起健肌', 'Pass the flower. Share a little knowledge.', '先選擇左右難度，再按「隨機抽題」。', 'Choose a level for each player, then draw your questions.'],
-  ready: ['兩位準備好了嗎？', 'A moment to get ready.', '主持人準備好後，按「開始計時」。', 'The host starts the clock when everyone is ready.'],
+  idle: ['一花在手，一起健肌', 'Pass the flower. Share a little knowledge.', '先選擇左右難度，再按「開始答題」；題目與計時會一起開始。', 'Choose a level for each player. Start reveals both questions and begins the clock.'],
+  ready: ['兩位準備好了嗎？', 'A moment to get ready.', '每輪都可重新選難度。按「開始答題」後，才會揭題及開始 20 秒計時。', 'Choose each level again. Start reveals the questions and begins the 20-second clock.'],
   running: ['一起想，想到就舉手', 'Think together. Raise your hand.', '有人舉手，主持人立即按「暫停」或空白鍵。', 'When a hand goes up, the host presses Pause or Space.'],
   paused: ['時間停好了，慢慢回答', 'The clock is paused. Take your turn.', '先舉手的人先回答，再輪到另一位；兩位都確認後才顯示結果。', 'First hand raised answers first, then the other player. Results wait for both.'],
   completed: ['一起學習，就是收穫', 'Every round is a chance to learn.', '兩位都已作答。按「顯示答案」一起看看，再抽下一輪。', 'Both answers are in. Reveal the answers, then enjoy another round.'],
@@ -42,13 +42,13 @@ function sourceMarkup(question) {
 }
 function panelMarkup(side) {
   const state = game.state;
-  const question = game.question(side);
+  const question = ['idle', 'ready'].includes(state.phase) ? null : game.question(side);
   const submitted = state.answers[side];
   const canAnswer = state.phase === 'paused' && !submitted;
-  const controlsAllowed = ['idle', 'completed', 'timedout'].includes(state.phase);
+  const controlsAllowed = ['idle', 'ready'].includes(state.phase);
   const isLeft = side === 'left';
   const heading = `<header class="player-heading"><div class="player-name"><span class="player-initial" aria-hidden="true">${isLeft ? 'A' : 'B'}</span><h2 id="${side}-name">${bilingual(isLeft ? '左邊的朋友' : '右邊的朋友', isLeft ? 'Player on the left' : 'Player on the right')}</h2></div><label class="difficulty-label" for="${side}-difficulty"><span>${bilingual(`餘 ${game.remaining(state.difficulty[side])} 題`, `${game.remaining(state.difficulty[side])} LEFT`)}</span><select id="${side}-difficulty" aria-label="${isLeft ? '左邊難度 Left difficulty' : '右邊難度 Right difficulty'}" ${controlsAllowed ? '' : 'disabled'}><option value="easy" ${state.difficulty[side] === 'easy' ? 'selected' : ''}>簡單 · Easy</option><option value="hard" ${state.difficulty[side] === 'hard' ? 'selected' : ''}>困難 · Hard</option></select></label></header>`;
-  if (!question) return `${heading}<div class="empty-card"><img class="empty-flower" src="./flower.svg" alt="" width="120" height="120"><h3>${bilingual(isLeft ? '準備接花了嗎？' : '把好心情傳下去', isLeft ? 'Ready for your flower?' : 'Let good things grow.')}</h3><p>${bilingual('選好難度，抽一個健肌小知識', 'Choose your level. A little knowledge awaits.')}</p></div>`;
+  if (!question) return `${heading}<div class="empty-card"><img class="empty-flower" src="./flower.svg" alt="" width="120" height="120"><h3>${bilingual(isLeft ? '準備接花了嗎？' : '把好心情傳下去', isLeft ? 'Ready for your flower?' : 'Let good things grow.')}</h3><p>${bilingual('選好難度，按「開始答題」才會揭題', 'Choose your level. Questions appear when you press Start.')}</p></div>`;
   const options = question.options.map(option => {
     const isSelected = state.selected[side] === option.id;
     const isCorrect = state.answersVisible && option.id === question.correctOptionId;
@@ -97,15 +97,15 @@ function render() {
   const copy = state.answersVisible ? ['把健肌小知識帶回家', 'A little knowledge to take with you.', '答案已顯示。可在題目卡內向下捲動閱讀解說，再開始下一輪。', 'Answers are revealed. Scroll within each card for explanations, then draw the next round.'] : stageCopy[state.phase];
   $('stage-title').innerHTML = bilingual(copy[0], copy[1]);
   $('stage-hint').innerHTML = bilingual(copy[2], copy[3]);
-  $('round-number').textContent = String(Math.max(1, state.round)).padStart(2, '0');
+  $('round-number').textContent = String(['idle', 'ready'].includes(state.phase) ? state.round + 1 : state.round).padStart(2, '0');
   $('timer-caption').innerHTML = ['idle', 'ready'].includes(state.phase) ? bilingual('共用思考時間', 'Shared thinking time') : state.phase === 'running' ? bilingual('兩位一起想', 'Think together') : state.phase === 'timedout' ? bilingual('本輪已結束', 'Round ended') : bilingual('已為兩位暫停', 'Paused for both');
   for (const side of SIDES) $(side + '-panel').innerHTML = panelMarkup(side);
-  $('draw').innerHTML = `<span class="button-icon" aria-hidden="true">${state.phase === 'idle' ? '⤨' : '→'}</span><span>${bilingual(state.phase === 'idle' ? '隨機抽題' : '下一輪', state.phase === 'idle' ? 'Draw questions' : 'Next round')}</span>`;
-  $('draw').classList.toggle('primary', state.phase === 'idle' || (state.answersVisible && ['completed', 'timedout'].includes(state.phase)));
-  $('draw').disabled = false;
+  $('draw').innerHTML = `<span class="button-icon" aria-hidden="true">→</span><span>${bilingual('下一輪', 'Next round')}</span>`;
+  $('draw').classList.toggle('primary', state.answersVisible && ['completed', 'timedout'].includes(state.phase));
+  $('draw').disabled = ['idle', 'ready'].includes(state.phase);
   $('home').disabled = false;
-  $('start').disabled = state.phase !== 'ready';
-  $('start').classList.toggle('primary', state.phase === 'ready');
+  $('start').disabled = !['idle', 'ready'].includes(state.phase);
+  $('start').classList.toggle('primary', ['idle', 'ready'].includes(state.phase));
   $('pause').disabled = state.phase !== 'running';
   $('pause').classList.toggle('primary', state.phase === 'running');
   $('reveal').disabled = !['completed', 'timedout'].includes(state.phase) || state.answersVisible;
@@ -137,18 +137,28 @@ function askConfirmation(titleZh, titleEn, messageZh, messageEn, action) {
   $('confirm-cancel').focus();
 }
 function draw() {
-  if (Date.now() - lastDrawAt < 600) return;
-  const needs = game.renewalsNeeded();
-  const unfinished = ['running', 'paused'].includes(game.state.phase);
+  if (Date.now() - lastDrawAt < 600 || ['idle', 'ready'].includes(game.state.phase)) return;
   const run = () => {
-    if (update(() => game.draw({ allowRenewal: needs.length > 0 }))) { lastDrawAt = Date.now(); communicate('已抽出兩道題目，請主持人開始計時。', 'Two questions are ready. The host can start the clock.'); }
+    if (update(() => game.prepare())) {
+      lastDrawAt = Date.now();
+      communicate('已準備下一輪。可重新選擇左右難度；按開始答題才會揭題。', 'The next round is ready to set up. Choose both levels; Start will reveal the questions.');
+      $('left-difficulty').focus({ preventScroll: true });
+    }
+  };
+  if (['running', 'paused'].includes(game.state.phase)) askConfirmation('準備下一輪？', 'Set up the next round?', '本輪還未完成。確認後會清除兩位本輪的選擇，返回難度設定；按開始答題前不會抽出新題目。', 'This round is unfinished. Both current selections will be cleared and you will return to level setup. No new questions are drawn until Start.', run);
+  else run();
+}
+function startRound() {
+  if (!game || !['idle', 'ready'].includes(game.state.phase) || $('confirm-dialog').open) return;
+  const needs = game.renewalsNeeded();
+  const run = () => {
+    if (update(() => game.start({ allowRenewal: needs.length > 0 }))) communicate('兩道題目已顯示，20 秒計時開始。有人舉手，請按暫停。', 'Both questions are revealed and the 20-second clock has started. Press Pause when a hand goes up.');
   };
   if (needs.length) {
     const namesZh = needs.map(level => `${level === 'easy' ? '簡單' : '困難'}題餘 ${game.remaining(level)} 題`).join('；');
     const namesEn = needs.map(level => `${level === 'easy' ? 'Easy' : 'Hard'}: ${game.remaining(level)} left`).join('; ');
-    askConfirmation('開始新的抽題循環？', 'Reshuffle the question pool?', `${namesZh}，不足抽出下一輪。確認後會先用完餘題，再重新洗牌；已出現過的題目將可再次抽出。${unfinished ? '本輪未完成的答案也會清除。' : ''}`, `${namesEn}. There are not enough unused questions for the next round. Any remaining question is used first, then the pool is reshuffled and previous questions become eligible again.${unfinished ? ' This will also clear the unfinished round.' : ''}`, run);
-  } else if (unfinished) askConfirmation('換到下一輪？', 'Move to the next round?', '本輪還未完成。確認後會清除兩位本輪的選擇，並抽出兩道新題目。', 'This round is unfinished. Both current selections will be cleared and two new questions drawn.', run);
-  else run();
+    askConfirmation('重新洗牌並開始答題？', 'Reshuffle and start?', `${namesZh}，不足開始本輪。確認後會先用完餘題，再重新洗牌，並同時揭題及開始 20 秒計時；已出現過的題目將可再次抽出。`, `${namesEn}. This round needs a reshuffle. Confirm to use any remaining question, reshuffle, reveal both questions and start the 20-second clock. Previous questions become eligible again.`, run);
+  } else run();
 }
 function pause() {
   if (!game || $('confirm-dialog').open || $('about-dialog').open) return;
@@ -183,20 +193,20 @@ $('fullscreen').addEventListener('click', async () => {
 function requestRestart() {
   if (!game) return;
   if ($('about-dialog').open) $('about-dialog').close();
-  askConfirmation('返回開始頁面？', 'Return to the start?', '這會清除目前題目、答案及抽題紀錄。下一次抽題會由第一輪開始；語言及左右難度設定會保留。', 'This clears the current questions, answers, and question history. Your next draw begins at round 1; language and difficulty settings are kept.', () => {
+  askConfirmation('返回開始頁面？', 'Return to the start?', '這會清除目前題目、答案及抽題紀錄。下一次開始答題會由第一輪開始；語言及左右難度設定會保留。', 'This clears the current questions, answers, and question history. The next game begins at round 1; language and difficulty settings are kept.', () => {
     game.resetHistory();
     startupNotice = '';
     lastDrawAt = -Infinity;
     save();
     render();
-    communicate('已返回開始頁面。下一次抽題會由第一輪開始。', 'You are back at the start. Your next draw begins at round 1.');
-    $('draw').focus({ preventScroll: true });
+    communicate('已返回開始頁面。下一次開始答題會由第一輪開始。', 'You are back at the start. The next game begins at round 1.');
+    $('start').focus({ preventScroll: true });
   });
 }
 $('home').addEventListener('click', requestRestart);
 $('reset-history').addEventListener('click', requestRestart);
 $('draw').addEventListener('click', () => game && draw());
-$('start').addEventListener('click', () => { if (game && update(() => game.start())) communicate('20 秒計時開始。有人舉手，請按暫停。', 'The 20-second clock has started. Press Pause when a hand goes up.'); });
+$('start').addEventListener('click', startRound);
 $('pause').addEventListener('click', pause);
 $('reveal').addEventListener('click', () => { if (game && update(() => game.reveal())) communicate('正確答案及解說已顯示。', 'The correct answers and explanations are revealed.'); });
 document.querySelector('.players').addEventListener('change', event => {
@@ -229,7 +239,7 @@ try {
   game = new QuizGame(bank);
   const previous = storageGet(STORAGE_KEY);
   if (previous && game.restore(previous)) communicate('已保留本機進度。', 'Your progress in this browser has been restored.');
-  else if (previous) startupNotice = bilingual('題庫已更新，已開始新的遊戲。', 'The question bank was updated, so a fresh game is ready.');
+  else if (previous) startupNotice = bilingual('遊戲已更新，請選擇難度後開始新的遊戲。', 'The game was updated. Choose your levels to start a fresh game.');
   save();
   render();
 } catch (error) {

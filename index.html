@@ -40,7 +40,7 @@
       </section>
       <div class="control-dock" aria-label="主持人控制 Host controls">
         <button id="draw" class="control-button draw-button" type="button"></button>
-        <button id="start" class="control-button" type="button"><span class="button-icon" aria-hidden="true">▷</span><span><span class="zh">開始計時</span><span class="en">Start 20 seconds</span></span></button>
+        <button id="start" class="control-button" type="button"><span class="button-icon" aria-hidden="true">▷</span><span><span class="zh">開始答題</span><span class="en">Reveal & start 20s</span></span></button>
         <button id="pause" class="control-button pause-button" type="button"><span class="pause-icon" aria-hidden="true"></span><span><span class="zh">有人舉手・暫停</span><span class="en">Hand raised · Pause</span></span><kbd>SPACE</kbd></button>
         <button id="reveal" class="control-button" type="button"><span class="button-icon" aria-hidden="true">✧</span><span><span class="zh">顯示答案</span><span class="en">Show answers</span></span></button>
       </div>
@@ -51,10 +51,10 @@
   <dialog id="about-dialog" aria-labelledby="about-title">
     <div class="dialog-heading"><h2 id="about-title"><span class="zh">傳花，傳一份健康</span><span class="en">A little guide to playing</span></h2><button class="close-button" id="close-about" aria-label="關閉 Close" type="button">×</button></div>
     <div class="instructions">
-      <p><b>01</b><span><span class="zh">選擇左右難度，隨機抽出兩道不同題目。</span><span class="en">Choose a level for each player, then draw two different questions.</span></span></p>
-      <p><b>02</b><span><span class="zh">主持人開始 20 秒計時。有人舉手，立即按「暫停」或空白鍵。</span><span class="en">The host starts the shared 20-second clock. When someone raises a hand, press Pause or Space.</span></span></p>
+      <p><b>01</b><span><span class="zh">每輪先選擇左右難度；開始前不會顯示題目或選項。</span><span class="en">Choose a level for each player every round. Questions and choices stay hidden before Start.</span></span></p>
+      <p><b>02</b><span><span class="zh">主持人按「開始答題」，同時隨機揭示兩題及開始 20 秒計時。有人舉手，立即按「暫停」或空白鍵。</span><span class="en">The host presses Start to draw and reveal both questions and start the shared 20-second clock. When a hand goes up, press Pause or Space.</span></span></p>
       <p><b>03</b><span><span class="zh">先舉手的人先回答，再輪到另一位。兩人都確認後，才一起顯示結果。</span><span class="en">The first to raise a hand answers first, then the other player. Results appear only after both confirm.</span></span></p>
-      <p><b>04</b><span><span class="zh">按「顯示答案」一起學習，再開始下一輪。暫停後不會自動繼續計時。</span><span class="en">Use Show answers to learn together, then draw the next round. A paused clock never resumes automatically.</span></span></p>
+      <p><b>04</b><span><span class="zh">按「顯示答案」一起學習，再按「下一輪」回到難度設定。暫停後不會自動繼續計時。</span><span class="en">Use Show answers to learn together, then Next round to choose levels again. A paused clock never resumes automatically.</span></span></p>
     </div>
     <div class="about-notes"><p><span class="zh">如未及暫停便到 0 秒，兩位本輪均不計答對。可以直接顯示答案，輕鬆再試。</span><span class="en">If time runs out before Pause, neither answer counts as correct. Reveal the answers and try another round.</span></p><p><span class="zh">題目抽完前不會重複；同輪盡量避開相同主題。重新整理會保留本機進度，各裝置獨立遊玩。沒有背景音樂。</span><span class="en">Questions do not repeat until a level’s pool is used. Similar topics are avoided when possible. Progress stays in this browser; different devices play independently. No audio is included.</span></p><p><span class="zh">題庫由所提供的肌少症教材改編，並校正部分醫學用語。題目來源及補充資料於顯示答案後列出。只供健康教育，並非診斷或個人治療建議。</span><span class="en">Adapted from the supplied sarcopenia teaching material, with selected medical wording corrected. Source references appear with revealed answers. For health education, not diagnosis or individual treatment advice.</span></p></div>
     <button id="reset-history" class="reset-button" type="button"><span class="zh">重設遊戲及抽題紀錄</span><span class="en">Reset game & question history</span></button>

@@ -1,7 +1,7 @@
 /** Browser-independent state machine. Time is supplied by an injected wall clock. */
 export const ROUND_MS = 20_000;
 export const SIDES = ['left', 'right'];
-export const STORAGE_VERSION = 1;
+export const STORAGE_VERSION = 2;
 const phases = new Set(['idle', 'ready', 'running', 'paused', 'completed', 'timedout']);
 const blankAnswers = () => ({ left: null, right: null });
 const shuffle = (items, random) => {
@@ -33,10 +33,13 @@ export class QuizGame {
       remainingMs: ROUND_MS, deadline: null, answersVisible: false,
       seen: { easy: [], hard: [] }, warnings: [] };
   }
-  question(side) { return this.byId.get(this.state.questionIds[side]) || null; }
+  question(side) {
+    if (['idle', 'ready'].includes(this.state.phase)) return null;
+    return this.byId.get(this.state.questionIds[side]) || null;
+  }
   setDifficulty(side, difficulty) {
     if (!SIDES.includes(side) || !['easy', 'hard'].includes(difficulty)) return false;
-    if (!['idle', 'completed', 'timedout'].includes(this.state.phase)) return false;
+    if (!['idle', 'ready'].includes(this.state.phase)) return false;
     this.state.difficulty[side] = difficulty;
     return true;
   }
@@ -48,8 +51,16 @@ export class QuizGame {
     for (const side of SIDES) required[this.state.difficulty[side]]++;
     return ['easy', 'hard'].filter(level => required[level] > 0 && this.remaining(level) < required[level]);
   }
-  draw({ allowRenewal = false } = {}) {
-    if (!allowRenewal && this.renewalsNeeded().length) return false;
+  prepare() {
+    if (this.state.phase === 'ready') return false;
+    this.state = { ...this.state, phase: 'ready', questionIds: blankAnswers(),
+      selected: blankAnswers(), answers: blankAnswers(), remainingMs: ROUND_MS,
+      deadline: null, answersVisible: false, warnings: [] };
+    return true;
+  }
+  // Compatibility alias: preparing a round never draws or consumes questions.
+  draw() { return this.prepare(); }
+  #selectPair() {
     const state = this.state;
     const seen = { easy: [...state.seen.easy], hard: [...state.seen.hard] };
     const warnings = [];
@@ -98,16 +109,18 @@ export class QuizGame {
     } else {
       for (const question of pair) seen[question.difficulty].push(question.id);
     }
-    this.state = { ...state, phase: 'ready', round: state.round + 1,
-      questionIds: { left: pair[0].id, right: pair[1].id }, selected: blankAnswers(), answers: blankAnswers(),
-      remainingMs: ROUND_MS, deadline: null, answersVisible: false, seen, warnings: [...new Set(warnings)] };
-    return true;
+    return { questionIds: { left: pair[0].id, right: pair[1].id },
+      seen, warnings: [...new Set(warnings)] };
   }
-  start() {
-    if (this.state.phase !== 'ready') return false;
-    this.state.phase = 'running';
-    this.state.remainingMs = ROUND_MS;
-    this.state.deadline = this.now() + ROUND_MS;
+  start({ allowRenewal = false } = {}) {
+    if (!['idle', 'ready'].includes(this.state.phase)) return false;
+    if (!allowRenewal && this.renewalsNeeded().length) return false;
+    const selection = this.#selectPair();
+    if (!selection) return false;
+    // Commit selection and the shared deadline together. Setup has no question IDs.
+    this.state = { ...this.state, ...selection, phase: 'running', round: this.state.round + 1,
+      selected: blankAnswers(), answers: blankAnswers(), remainingMs: ROUND_MS,
+      deadline: this.now() + ROUND_MS, answersVisible: false };
     return true;
   }
   tick() {
@@ -166,7 +179,23 @@ export class QuizGame {
     try {
       const saved = JSON.parse(serialized);
       const state = saved.state;
-      if (saved.version !== STORAGE_VERSION || saved.fingerprint !== this.fingerprint || !state || !phases.has(state.phase)) return false;
+      if (![1, STORAGE_VERSION].includes(saved.version) || saved.fingerprint !== this.fingerprint || !state || !phases.has(state.phase)) return false;
+      if (saved.version === 1 && state.phase === 'ready') {
+        // v5 drew before Start. Undo that unstarted draw without losing completed rounds.
+        const pendingIds = SIDES.map(side => state.questionIds?.[side]);
+        if (!Number.isInteger(state.round) || state.round < 1 || new Set(pendingIds).size !== 2 ||
+            pendingIds.some(id => !this.byId.has(id)) || state.deadline !== null || state.remainingMs !== ROUND_MS ||
+            SIDES.some(side => state.answers?.[side] !== null || state.selected?.[side] !== null) || state.answersVisible) return false;
+        for (const level of ['easy', 'hard']) {
+          if (!Array.isArray(state.seen?.[level])) return false;
+          state.seen[level] = state.seen[level].filter(id => !pendingIds.includes(id));
+        }
+        state.round -= 1;
+        state.questionIds = blankAnswers();
+        state.selected = blankAnswers();
+        state.answers = blankAnswers();
+        state.warnings = [];
+      }
       if (!Number.isInteger(state.round) || state.round < 0 || !Number.isFinite(state.remainingMs) || state.remainingMs < 0 || state.remainingMs > ROUND_MS) return false;
       if (typeof state.answersVisible !== 'boolean' || !Array.isArray(state.warnings)) return false;
       for (const difficulty of ['easy', 'hard']) {
@@ -175,14 +204,17 @@ export class QuizGame {
       for (const side of SIDES) {
         if (!['easy', 'hard'].includes(state.difficulty?.[side])) return false;
         const q = this.byId.get(state.questionIds?.[side]);
-        if (state.phase !== 'idle' && !q) return false;
+        const setup = ['idle', 'ready'].includes(state.phase);
+        if (setup ? state.questionIds?.[side] !== null : !q) return false;
         const selected = state.selected?.[side];
         if (selected !== null && !q?.options.some(o => o.id === selected)) return false;
         const answer = state.answers?.[side];
         if (answer !== null && (!answer || !['answer', 'skip', 'timeout'].includes(answer.reason) ||
             (answer.reason === 'answer' ? !q?.options.some(o => o.id === answer.choice) : answer.choice !== null))) return false;
       }
-      if (state.phase !== 'idle' && state.questionIds.left === state.questionIds.right) return false;
+      if (!['idle', 'ready'].includes(state.phase) && state.questionIds.left === state.questionIds.right) return false;
+      if (['idle', 'ready'].includes(state.phase) && (state.deadline !== null || state.remainingMs !== ROUND_MS || SIDES.some(s => state.selected[s] !== null))) return false;
+      if (!['idle', 'ready'].includes(state.phase) && state.round < 1) return false;
       if (state.phase === 'running' && !Number.isFinite(state.deadline)) return false;
       if (['idle', 'ready', 'running'].includes(state.phase) && SIDES.some(s => state.answers[s])) return false;
       if (['completed', 'timedout'].includes(state.phase) && SIDES.some(s => !state.answers[s])) return false;
