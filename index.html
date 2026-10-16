@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="zh-Hant-HK">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f7ee">
+  <meta name="description" content="健肌傳花：為長者活動而設的雙語、雙人肌少症知識遊戲。20 秒一起想，舉手後暫停，兩人作答後一起揭曉。">
+  <title>健肌傳花 · Pass & Play</title>
+  <link rel="icon" href="./flower.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./app.js"></script>
+</head>
+<body data-language="both">
+  <a href="#game" class="skip-link">跳至遊戲 · Skip to game</a>
+  <div class="page-shell">
+    <header class="masthead">
+      <a class="brand" href="./" aria-label="健肌傳花 Pass and Play 首頁">
+        <img src="./flower.svg" alt="" width="46" height="54">
+        <div><div class="brand-name"><span class="zh">健肌傳花</span><span class="en">Pass & Play</span></div><div class="brand-caption"><span class="zh">一起想，一起學，肌肉更有力</span><span class="en">A little play. A little strength.</span></div></div>
+      </a>
+      <nav class="header-tools" aria-label="遊戲設定 Game settings">
+        <button id="home" class="home-button" type="button" aria-label="返回開始 Back to start" disabled><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 10 9-7 9 7M5 9v12h5v-7h4v7h5V9"/></svg><span><span class="zh">返回開始</span><span class="en">Back to start</span></span></button>
+        <label class="language-picker"><span class="sr-only">語言 Language</span><select id="language"><option value="both">中 / EN</option><option value="zh">繁體中文</option><option value="en">English</option></select></label>
+        <button id="fullscreen" class="icon-button" type="button" title="全螢幕 Full screen" aria-label="全螢幕 Full screen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 3H3v5M16 3h5v5M3 16v5h5m8 0h5v-5"/></svg></button>
+        <button id="help" class="icon-button" type="button" title="玩法與資料 About" aria-label="玩法與資料 About"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 0 1 5 .3c0 1.7-2.5 2-2.5 4M12 17h.01"/></svg></button>
+      </nav>
+    </header>
+
+    <main id="game">
+      <section class="round-strip" aria-labelledby="stage-title">
+        <div class="round-badge"><span class="zh">回合</span><span class="en">ROUND</span><strong id="round-number">01</strong></div>
+        <div class="stage-copy"><h1 id="stage-title"><span class="zh">一花在手，一起健肌</span><span class="en">Pass the flower. Share a little knowledge.</span></h1><p id="stage-hint"></p></div>
+        <div class="timer-block" aria-label="共用思考時間 Shared thinking time"><div class="timer-ring" id="timer-ring"><strong id="timer" role="timer" aria-live="off">20</strong><span class="zh">秒</span><span class="en">sec</span></div><div class="timer-caption" id="timer-caption"></div></div>
+      </section>
+      <div id="notice" class="notice" hidden role="status"></div>
+      <p class="orientation-hint" role="note"><span class="zh">兩位固定左右作答。小螢幕建議橫向使用；題目卡內可上下捲動。</span><span class="en">Players stay side by side. Turn a small screen sideways for more room; scroll within each card.</span></p>
+      <section class="players" aria-label="雙人答題 Two-player quiz">
+        <article id="left-panel" class="player-panel left-panel" aria-labelledby="left-name"></article>
+        <article id="right-panel" class="player-panel right-panel" aria-labelledby="right-name"></article>
+      </section>
+      <div class="control-dock" aria-label="主持人控制 Host controls">
+        <button id="draw" class="control-button draw-button" type="button"></button>
+        <button id="start" class="control-button" type="button"><span class="button-icon" aria-hidden="true">▷</span><span><span class="zh">開始計時</span><span class="en">Start 20 seconds</span></span></button>
+        <button id="pause" class="control-button pause-button" type="button"><span class="pause-icon" aria-hidden="true"></span><span><span class="zh">有人舉手・暫停</span><span class="en">Hand raised · Pause</span></span><kbd>SPACE</kbd></button>
+        <button id="reveal" class="control-button" type="button"><span class="button-icon" aria-hidden="true">✧</span><span><span class="zh">顯示答案</span><span class="en">Show answers</span></span></button>
+      </div>
+      <p id="live-status" class="sr-only" role="status" aria-live="polite"></p>
+    </main>
+    <footer><span><span class="zh">健肌小知識 · 輕鬆學習，量力而為</span><span class="en">Muscle health · Learn together, at your own pace</span></span><span class="footer-note"><span class="zh">健康教育用途，不能代替專業評估</span><span class="en">For education, not a medical assessment</span></span></footer>
+  </div>
+  <dialog id="about-dialog" aria-labelledby="about-title">
+    <div class="dialog-heading"><h2 id="about-title"><span class="zh">傳花，傳一份健康</span><span class="en">A little guide to playing</span></h2><button class="close-button" id="close-about" aria-label="關閉 Close" type="button">×</button></div>
+    <div class="instructions">
+      <p><b>01</b><span><span class="zh">選擇左右難度，隨機抽出兩道不同題目。</span><span class="en">Choose a level for each player, then draw two different questions.</span></span></p>
+      <p><b>02</b><span><span class="zh">主持人開始 20 秒計時。有人舉手，立即按「暫停」或空白鍵。</span><span class="en">The host starts the shared 20-second clock. When someone raises a hand, press Pause or Space.</span></span></p>
+      <p><b>03</b><span><span class="zh">先舉手的人先回答，再輪到另一位。兩人都確認後，才一起顯示結果。</span><span class="en">The first to raise a hand answers first, then the other player. Results appear only after both confirm.</span></span></p>
+      <p><b>04</b><span><span class="zh">按「顯示答案」一起學習，再開始下一輪。暫停後不會自動繼續計時。</span><span class="en">Use Show answers to learn together, then draw the next round. A paused clock never resumes automatically.</span></span></p>
+    </div>
+    <div class="about-notes"><p><span class="zh">如未及暫停便到 0 秒，兩位本輪均不計答對。可以直接顯示答案，輕鬆再試。</span><span class="en">If time runs out before Pause, neither answer counts as correct. Reveal the answers and try another round.</span></p><p><span class="zh">題目抽完前不會重複；同輪盡量避開相同主題。重新整理會保留本機進度，各裝置獨立遊玩。沒有背景音樂。</span><span class="en">Questions do not repeat until a level’s pool is used. Similar topics are avoided when possible. Progress stays in this browser; different devices play independently. No audio is included.</span></p><p><span class="zh">題庫由所提供的肌少症教材改編，並校正部分醫學用語。題目來源及補充資料於顯示答案後列出。只供健康教育，並非診斷或個人治療建議。</span><span class="en">Adapted from the supplied sarcopenia teaching material, with selected medical wording corrected. Source references appear with revealed answers. For health education, not diagnosis or individual treatment advice.</span></p></div>
+    <button id="reset-history" class="reset-button" type="button"><span class="zh">重設遊戲及抽題紀錄</span><span class="en">Reset game & question history</span></button>
+  </dialog>
+  <dialog id="confirm-dialog" aria-labelledby="confirm-title"><div class="dialog-heading"><h2 id="confirm-title"></h2></div><p id="confirm-message"></p><div class="confirm-actions"><button id="confirm-cancel" class="secondary-button" type="button"><span class="zh">返回遊戲</span><span class="en">Keep playing</span></button><button id="confirm-proceed" class="primary-button" type="button"><span class="zh">確認</span><span class="en">Confirm</span></button></div></dialog>
+  <noscript><p class="noscript">此遊戲需要啟用 JavaScript。This game needs JavaScript to run.</p></noscript>
+</body>
+</html>

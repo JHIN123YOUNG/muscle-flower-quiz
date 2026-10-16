@@ -1,0 +1,2414 @@
+[
+  {
+    "id": "E1",
+    "difficulty": "easy",
+    "topic": "definition",
+    "type": "mcq",
+    "question": {
+      "zh": "Sarcopenia 的中文名稱是甚麼？",
+      "en": "What is the Chinese name for sarcopenia?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "zh": "關節炎",
+        "en": "關節炎"
+      },
+      {
+        "id": "b",
+        "zh": "骨質疏鬆症",
+        "en": "骨質疏鬆症"
+      },
+      {
+        "id": "c",
+        "zh": "高血壓",
+        "en": "高血壓"
+      },
+      {
+        "id": "d",
+        "zh": "肌少症",
+        "en": "肌少症"
+      }
+    ],
+    "correctOptionId": "d",
+    "explanation": {
+      "zh": "Sarcopenia 的中文名稱是「肌少症」。",
+      "en": "The Chinese term for sarcopenia is 肌少症."
+    },
+    "sourceId": "E1",
+    "sourcePage": 3,
+    "medicalReviewRequired": false,
+    "sources": []
+  },
+  {
+    "id": "E2",
+    "difficulty": "easy",
+    "topic": "risk_factors",
+    "type": "tf",
+    "question": {
+      "zh": "缺乏身體活動是肌少症的風險因素。對還是錯？",
+      "en": "Physical inactivity is a risk factor for sarcopenia. True or false?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "zh": "對",
+        "en": "True"
+      },
+      {
+        "id": "b",
+        "zh": "錯",
+        "en": "False"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": {
+      "zh": "對。缺乏身體活動是講義列出的風險因素。",
+      "en": "True. Physical inactivity is one of the risk factors listed in the lecture."
+    },
+    "sourceId": "E2",
+    "sourcePage": 5,
+    "medicalReviewRequired": false,
+    "sources": []
+  },
+  {
+    "id": "E3",
+    "difficulty": "easy",
+    "topic": "consequences",
+    "type": "tf",
+    "question": {
+      "zh": "肌少症不會令人較難應付日常活動。對還是錯？",
+      "en": "Sarcopenia does not make everyday activities harder. True or false?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "zh": "對",
+        "en": "True"
+      },
+      {
+        "id": "b",
+        "zh": "錯",
+        "en": "False"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": {
+      "zh": "錯。肌少症可能影響活動能力及日常生活。",
+      "en": "False. Sarcopenia can affect mobility and everyday activities."
+    },
+    "sourceId": "E3",
+    "sourcePage": 8,
+    "medicalReviewRequired": false,
+    "sources": []
+  },
+  {
+    "id": "E4",
+    "difficulty": "easy",
+    "topic": "warning_signs",
+    "type": "tf",
+    "question": {
+      "zh": "經常跌倒是肌少症的可能徵象之一。對還是錯？",
+      "en": "Frequent falls are a possible sign of sarcopenia. True or false?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "zh": "對",
+        "en": "True"
+      },
+      {
+        "id": "b",
+        "zh": "錯",
+        "en": "False"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": {
+      "zh": "對。講義把經常跌倒列為可能徵象之一。",
+      "en": "True. Frequent falls are listed as a possible sign in the lecture."
+    },
+    "sourceId": "E4",
+    "sourcePage": 10,
+    "medicalReviewRequired": false,
+    "sources": []
+  },
+  {
+    "id": "E5",
+    "difficulty": "easy",
+    "topic": "warning_signs",
+    "type": "mcq",
+    "question": {
+      "zh": "以下哪項是講義列出的肌少症可能徵象？",
+      "en": "Which is listed in the lecture as a possible sign of sarcopenia?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "zh": "跑得更快",
+        "en": "Running faster"
+      },
+      {
+        "id": "b",
+        "zh": "活動能力更好",
+        "en": "Better mobility"
+      },
+      {
+        "id": "c",
+        "zh": "走路變慢",
+        "en": "Walking more slowly"
+      },
+      {
+        "id": "d",
+        "zh": "跳得更高",
+        "en": "Jumping higher"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": {
+      "zh": "走路變慢是講義列出的可能徵象。",
+      "en": "Slow walking is one of the possible signs listed in the lecture."
+    },
+    "sourceId": "E5",
+    "sourcePage": 10,
+    "medicalReviewRequired": false,
+    "sources": []
+  },
+  {
+    "id": "E6",
+    "difficulty": "easy",
+    "topic": "screening",
+    "type": "tf",
+    "question": {
+      "zh": "按照講義，肌少症的初步篩查可以在家進行。對還是錯？",
+      "en": "According to the lecture, initial screening for sarcopenia can be done at home. True or false?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "zh": "對",
+        "en": "True"
+      },
+      {
+        "id": "b",
+        "zh": "錯",
+        "en": "False"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": {
+      "zh": "對。講義介紹可在家進行的初步篩查。",
+      "en": "True. The lecture describes initial screening that can be done at home."
+    },
+    "sourceId": "E6",
+    "sourcePage": 12,
+    "medicalReviewRequired": false,
+    "sources": []
+  },
+  {
+    "id": "E7",
+    "difficulty": "easy",
+    "topic": "protein_functions",
+    "type": "mcq",
+    "question": {
+      "zh": "哪種營養素被稱為身體的「建築材料」？",
+      "en": "Which nutrient is called the body's “building block”?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "zh": "水分",
+        "en": "Water"
+      },
+      {
+        "id": "b",
+        "zh": "脂肪",
+        "en": "Fat"
+      },
+      {
+        "id": "c",
+        "zh": "蛋白質",
+        "en": "Protein"
+      },
+      {
+        "id": "d",
+        "zh": "膳食纖維",
+        "en": "Dietary fibre"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": {
+      "zh": "蛋白質是身體的「建築材料」。",
+      "en": "Protein is described as the body's “building block”."
+    },
+    "sourceId": "E7",
+    "sourcePage": 19,
+    "medicalReviewRequired": false,
+    "sources": []
+  },
+  {
+    "id": "E8",
+    "difficulty": "easy",
+    "topic": "protein_functions",
+    "type": "tf",
+    "question": {
+      "zh": "蛋白質與傷口癒合及組織再生無關。對還是錯？",
+      "en": "Protein has no role in wound healing or tissue regeneration. True or false?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "zh": "對",
+        "en": "True"
+      },
+      {
+        "id": "b",
+        "zh": "錯",
+        "en": "False"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": {
+      "zh": "錯。蛋白質有助傷口癒合及組織再生。",
+      "en": "False. Protein helps with wound healing and tissue regeneration."
+    },
+    "sourceId": "E8",
+    "sourcePage": 19,
+    "medicalReviewRequired": false,
+    "sources": []
+  },
+  {
+    "id": "E9",
+    "difficulty": "easy",
+    "topic": "animal_protein",
+    "type": "mcq",
+    "question": {
+      "zh": "以下哪種是動物性蛋白質食物？",
+      "en": "Which food is an animal-protein source?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "zh": "豆腐",
+        "en": "Tofu"
+      },
+      {
+        "id": "b",
+        "zh": "雞蛋",
+        "en": "Egg"
+      },
+      {
+        "id": "c",
+        "zh": "鷹嘴豆",
+        "en": "Chickpeas"
+      },
+      {
+        "id": "d",
+        "zh": "毛豆",
+        "en": "Edamame"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": {
+      "zh": "雞蛋是動物性蛋白質來源。",
+      "en": "Eggs are an animal-protein source."
+    },
+    "sourceId": "E9",
+    "sourcePage": 24,
+    "medicalReviewRequired": false,
+    "sources": []
+  },
+  {
+    "id": "E10",
+    "difficulty": "easy",
+    "topic": "plant_protein",
+    "type": "mcq",
+    "question": {
+      "zh": "以下哪種是植物性蛋白質食物？",
+      "en": "Which food is a plant-protein source?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "zh": "豆腐",
+        "en": "Tofu"
+      },
+      {
+        "id": "b",
+        "zh": "魚",
+        "en": "Fish"
+      },
+      {
+        "id": "c",
+        "zh": "雞蛋",
+        "en": "Egg"
+      },
+      {
+        "id": "d",
+        "zh": "雞肉",
+        "en": "Chicken"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": {
+      "zh": "豆腐是植物性蛋白質來源。",
+      "en": "Tofu is a plant-protein source."
+    },
+    "sourceId": "E10",
+    "sourcePage": 25,
+    "medicalReviewRequired": false,
+    "sources": []
+  },
+  {
+    "id": "E11",
+    "difficulty": "easy",
+    "topic": "animal_protein",
+    "type": "tf",
+    "question": {
+      "zh": "奶類屬於植物性蛋白質食物。對還是錯？",
+      "en": "Dairy products are plant-protein foods. True or false?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "zh": "對",
+        "en": "True"
+      },
+      {
+        "id": "b",
+        "zh": "錯",
+        "en": "False"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": {
+      "zh": "錯。奶類屬於動物性蛋白質來源。",
+      "en": "False. Dairy products are animal-protein sources."
+    },
+    "sourceId": "E11",
+    "sourcePage": 24,
+    "medicalReviewRequired": false,
+    "sources": []
+  },
+  {
+    "id": "E12",
+    "difficulty": "easy",
+    "topic": "plant_protein",
+    "type": "tf",
+    "question": {
+      "zh": "講義把果仁及種子列為植物性蛋白質來源。對還是錯？",
+      "en": "The lecture lists nuts and seeds as plant-protein sources. True or false?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "zh": "對",
+        "en": "True"
+      },
+      {
+        "id": "b",
+        "zh": "錯",
+        "en": "False"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": {
+      "zh": "對。果仁及種子都在講義的植物性蛋白質名單內。",
+      "en": "True. Nuts and seeds are included among the lecture's plant-protein sources."
+    },
+    "sourceId": "E12",
+    "sourcePage": 25,
+    "medicalReviewRequired": false,
+    "sources": []
+  },
+  {
+    "id": "E13",
+    "difficulty": "easy",
+    "topic": "quinoa",
+    "type": "mcq",
+    "question": {
+      "zh": "講義提到哪種穀物可用來代替白飯？",
+      "en": "Which grain does the lecture suggest as an alternative to white rice?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "zh": "蕎麥",
+        "en": "Buckwheat"
+      },
+      {
+        "id": "b",
+        "zh": "珍珠大麥",
+        "en": "Pearl barley"
+      },
+      {
+        "id": "c",
+        "zh": "藜麥",
+        "en": "Quinoa"
+      },
+      {
+        "id": "d",
+        "zh": "小米",
+        "en": "Millet"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": {
+      "zh": "講義介紹藜麥，可用來代替白飯。",
+      "en": "The lecture suggests quinoa as an alternative to white rice."
+    },
+    "sourceId": "E13",
+    "sourcePage": 26,
+    "medicalReviewRequired": false,
+    "sources": []
+  },
+  {
+    "id": "E14",
+    "difficulty": "easy",
+    "topic": "vitamin_d_functions",
+    "type": "mcq",
+    "question": {
+      "zh": "講義特別提到哪種維他命有助維持骨骼健康？",
+      "en": "Which vitamin does the lecture highlight for maintaining bone health?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "zh": "維他命 D",
+        "en": "Vitamin D"
+      },
+      {
+        "id": "b",
+        "zh": "維他命 A",
+        "en": "Vitamin A"
+      },
+      {
+        "id": "c",
+        "zh": "維他命 C",
+        "en": "Vitamin C"
+      },
+      {
+        "id": "d",
+        "zh": "維他命 B12",
+        "en": "Vitamin B12"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": {
+      "zh": "講義特別提到維他命 D 與骨骼健康。",
+      "en": "The lecture highlights vitamin D for maintaining bone health."
+    },
+    "sourceId": "E14",
+    "sourcePage": 27,
+    "medicalReviewRequired": false,
+    "sources": []
+  },
+  {
+    "id": "E15",
+    "difficulty": "easy",
+    "topic": "vitamin_d_foods",
+    "type": "mcq",
+    "question": {
+      "zh": "講義列出雞蛋哪個部位是維他命 D 來源？",
+      "en": "Which part of an egg is listed in the lecture as a vitamin D source?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "zh": "蛋白",
+        "en": "Egg white"
+      },
+      {
+        "id": "b",
+        "zh": "蛋黃",
+        "en": "Yolk"
+      },
+      {
+        "id": "c",
+        "zh": "蛋殼",
+        "en": "Shell"
+      },
+      {
+        "id": "d",
+        "zh": "蛋殼膜",
+        "en": "Shell membrane"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": {
+      "zh": "講義列出的來源是蛋黃。",
+      "en": "The source listed in the lecture is the egg yolk."
+    },
+    "sourceId": "E15",
+    "sourcePage": 28,
+    "medicalReviewRequired": false,
+    "sources": []
+  },
+  {
+    "id": "E16",
+    "difficulty": "easy",
+    "topic": "omega3_fish",
+    "type": "tf",
+    "question": {
+      "zh": "三文魚不在講義的 omega-3 魚類名單內。對還是錯？",
+      "en": "Salmon is not on the lecture's list of omega-3 fish sources. True or false?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "zh": "對",
+        "en": "True"
+      },
+      {
+        "id": "b",
+        "zh": "錯",
+        "en": "False"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": {
+      "zh": "錯。三文魚是講義列出的 omega-3 魚類來源之一。",
+      "en": "False. Salmon is one of the fish sources of omega-3 listed in the lecture."
+    },
+    "sourceId": "E16",
+    "sourcePage": 30,
+    "medicalReviewRequired": false,
+    "sources": []
+  },
+  {
+    "id": "E17",
+    "difficulty": "easy",
+    "topic": "omega3_roles",
+    "type": "tf",
+    "question": {
+      "zh": "Omega-3 可能有抗炎作用，但不能保證一定增加肌肉或加快恢復。對還是錯？",
+      "en": "Omega-3s may have anti-inflammatory effects, but they do not guarantee muscle growth or faster recovery. True or false?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "zh": "對",
+        "en": "True"
+      },
+      {
+        "id": "b",
+        "zh": "錯",
+        "en": "False"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": {
+      "zh": "對。部分研究顯示潛在作用，但補充 omega-3 對長者肌肉健康的臨床效益仍未一致確立。",
+      "en": "True. Some studies suggest potential effects, but clinical benefits of omega-3 supplements for older adults' muscle health are not consistently established."
+    },
+    "sourceId": "E17",
+    "sourcePage": 29,
+    "medicalReviewRequired": false,
+    "sources": [
+      {
+        "title": "DO-HEALTH omega-3 與肌肉健康研究",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11970227/"
+      }
+    ]
+  },
+  {
+    "id": "E18",
+    "difficulty": "easy",
+    "topic": "poor_appetite",
+    "type": "mcq",
+    "question": {
+      "zh": "按照講義，胃口差時應在一餐的甚麼時候飲湯？",
+      "en": "According to the lecture, when should someone with a poor appetite drink soup?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "zh": "吃到一半",
+        "en": "Halfway through"
+      },
+      {
+        "id": "b",
+        "zh": "一開始",
+        "en": "At the start"
+      },
+      {
+        "id": "c",
+        "zh": "最後",
+        "en": "At the end"
+      },
+      {
+        "id": "d",
+        "zh": "吃飯前",
+        "en": "Before the meal"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": {
+      "zh": "講義建議胃口差的人最後才飲湯。",
+      "en": "The lecture suggests drinking soup last for someone with a poor appetite."
+    },
+    "sourceId": "E18",
+    "sourcePage": 17,
+    "medicalReviewRequired": false,
+    "sources": []
+  },
+  {
+    "id": "E19",
+    "difficulty": "easy",
+    "topic": "aerobic_exercise",
+    "type": "mcq",
+    "question": {
+      "zh": "以下哪項是講義列出的帶氧運動？",
+      "en": "Which is listed in the lecture as an aerobic activity?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "zh": "踏單車",
+        "en": "Cycling"
+      },
+      {
+        "id": "b",
+        "zh": "舉啞鈴",
+        "en": "Dumbbell lifting"
+      },
+      {
+        "id": "c",
+        "zh": "彈力帶阻力訓練",
+        "en": "Resistance-band training"
+      },
+      {
+        "id": "d",
+        "zh": "負重深蹲",
+        "en": "Weighted squats"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": {
+      "zh": "講義把踏單車列為帶氧運動。",
+      "en": "The lecture lists cycling as an aerobic activity."
+    },
+    "sourceId": "E19",
+    "sourcePage": 32,
+    "medicalReviewRequired": false,
+    "sources": []
+  },
+  {
+    "id": "E20",
+    "difficulty": "easy",
+    "topic": "resistance_exercise",
+    "type": "mcq",
+    "question": {
+      "zh": "講義強調哪類運動有助增強肌肉及骨骼？",
+      "en": "Which type of exercise does the lecture highlight for muscle and bone strength?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "zh": "只做呼吸練習",
+        "en": "Breathing exercises alone"
+      },
+      {
+        "id": "b",
+        "zh": "阻力訓練（肌力運動）",
+        "en": "Resistance training"
+      },
+      {
+        "id": "c",
+        "zh": "只做平衡練習",
+        "en": "Balance exercises alone"
+      },
+      {
+        "id": "d",
+        "zh": "只做伸展運動",
+        "en": "Stretching alone"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": {
+      "zh": "講義強調阻力訓練對肌肉及骨骼的重要性。",
+      "en": "The lecture highlights resistance training for muscle and bone strength."
+    },
+    "sourceId": "E20",
+    "sourcePage": 32,
+    "medicalReviewRequired": false,
+    "sources": []
+  },
+  {
+    "id": "M1",
+    "difficulty": "easy",
+    "topic": "definition",
+    "question": {
+      "zh": "哪一組同時包含講義對肌少症的兩項描述？",
+      "en": "Which pair matches the lecture’s description of sarcopenia?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "zh": "肌肉力量高，肌肉量或質素低",
+        "en": "High muscle strength and low muscle quantity or quality"
+      },
+      {
+        "id": "b",
+        "zh": "肌肉力量低，肌肉量或質素也低",
+        "en": "Low muscle strength and low muscle quantity or quality"
+      },
+      {
+        "id": "c",
+        "zh": "肌肉力量低，肌肉量和質素都高",
+        "en": "Low muscle strength with high muscle quantity and quality"
+      },
+      {
+        "id": "d",
+        "zh": "肌肉力量高，肌肉量和質素也高",
+        "en": "High muscle strength, quantity and quality"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": {
+      "zh": "按講義，肌少症涉及肌肉力量低，以及肌肉量或質素低。",
+      "en": "The lecture describes low muscle strength and low muscle quantity or quality."
+    },
+    "sourceId": "M1",
+    "sourcePage": 3,
+    "type": "mcq",
+    "sources": [],
+    "medicalReviewRequired": false
+  },
+  {
+    "id": "M2",
+    "difficulty": "easy",
+    "topic": "ageing_mechanisms",
+    "question": {
+      "zh": "哪一項是講義列出的、隨年齡增長而促成肌少症的過程？",
+      "en": "Which age-related process is listed as contributing to sarcopenia?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "zh": "控制肌肉的神經功能持續改善",
+        "en": "A lasting improvement in the nerves controlling muscles"
+      },
+      {
+        "id": "b",
+        "zh": "肌肉對生長刺激的反應持續增強",
+        "en": "A lasting increase in muscles’ response to growth signals"
+      },
+      {
+        "id": "c",
+        "zh": "長期、輕微的發炎",
+        "en": "Chronic low-grade inflammation"
+      },
+      {
+        "id": "d",
+        "zh": "肌肉製造能量的能力持續提高",
+        "en": "A lasting increase in muscles’ ability to make energy"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": {
+      "zh": "按講義，長期、低程度的發炎是其中一項與年齡有關的成因。",
+      "en": "The lecture lists chronic low-grade inflammation as one age-related contributor."
+    },
+    "sourceId": "M2",
+    "sourcePage": 6,
+    "type": "mcq",
+    "sources": [],
+    "medicalReviewRequired": false
+  },
+  {
+    "id": "M3",
+    "difficulty": "easy",
+    "topic": "consequences",
+    "question": {
+      "zh": "哪一組兩項都是講義列出的肌少症可能後果？",
+      "en": "Which pair contains two possible consequences of sarcopenia listed in the lecture?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "zh": "跌倒或骨折、骨質密度增加",
+        "en": "Falls or fractures; increased bone density"
+      },
+      {
+        "id": "b",
+        "zh": "肌肉量增加、活動能力提高",
+        "en": "Increased muscle mass; improved mobility"
+      },
+      {
+        "id": "c",
+        "zh": "跌倒或骨折、日常活動變得困難",
+        "en": "Falls or fractures; difficulty with daily activities"
+      },
+      {
+        "id": "d",
+        "zh": "活動能力提高、日常活動變得困難",
+        "en": "Improved mobility; difficulty with daily activities"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": {
+      "zh": "按講義，肌少症可能帶來跌倒或骨折，也可令日常活動變得困難。",
+      "en": "The lecture lists falls or fractures and difficulty with daily activities as possible consequences."
+    },
+    "sourceId": "M3",
+    "sourcePage": 8,
+    "type": "mcq",
+    "sources": [],
+    "medicalReviewRequired": false
+  },
+  {
+    "id": "M4",
+    "difficulty": "easy",
+    "topic": "warning_signs",
+    "question": {
+      "zh": "哪一組兩項都是講義列出的肌少症可能徵兆？",
+      "en": "Which pair contains two possible signs of sarcopenia listed in the lecture?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "zh": "步行緩慢、日常活動更輕鬆",
+        "en": "Slow walking; easier daily activities"
+      },
+      {
+        "id": "b",
+        "zh": "步行緩慢、經常跌倒",
+        "en": "Slow walking; frequent falls"
+      },
+      {
+        "id": "c",
+        "zh": "步行更快、經常跌倒",
+        "en": "Faster walking; frequent falls"
+      },
+      {
+        "id": "d",
+        "zh": "精力增加、步行更快",
+        "en": "More energy; faster walking"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": {
+      "zh": "按講義，步行緩慢和經常跌倒都是可能徵兆。",
+      "en": "The lecture lists slow walking and frequent falls as possible signs."
+    },
+    "sourceId": "M4",
+    "sourcePage": 10,
+    "type": "mcq",
+    "sources": [],
+    "medicalReviewRequired": false
+  },
+  {
+    "id": "M5",
+    "difficulty": "hard",
+    "topic": "nutrition_components",
+    "question": {
+      "zh": "講義強調哪四項飲食要素，有助預防和對抗肌少症？",
+      "en": "Which four dietary components does the lecture highlight for preventing and combating sarcopenia?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "zh": "足夠能量、足夠蛋白質、維他命D、Omega-6",
+        "en": "Enough energy, enough protein, vitamin D and omega-6"
+      },
+      {
+        "id": "b",
+        "zh": "足夠能量、足夠蛋白質、維他命C、Omega-6",
+        "en": "Enough energy, enough protein, vitamin C and omega-6"
+      },
+      {
+        "id": "c",
+        "zh": "足夠能量、足夠蛋白質、維他命C、Omega-3",
+        "en": "Enough energy, enough protein, vitamin C and omega-3"
+      },
+      {
+        "id": "d",
+        "zh": "足夠能量、足夠蛋白質、維他命D、Omega-3",
+        "en": "Enough energy, enough protein, vitamin D and omega-3"
+      }
+    ],
+    "correctOptionId": "d",
+    "explanation": {
+      "zh": "按講義，四項要素是足夠能量、足夠蛋白質、維他命D和Omega-3。",
+      "en": "The four components are adequate energy, adequate protein, vitamin D and omega-3."
+    },
+    "sourceId": "M5",
+    "sourcePage": 13,
+    "type": "mcq",
+    "sources": [],
+    "medicalReviewRequired": false
+  },
+  {
+    "id": "M6",
+    "difficulty": "easy",
+    "topic": "management_strategies",
+    "question": {
+      "zh": "除了飲食，講義還強調哪兩項對抗肌少症的方法？",
+      "en": "Besides diet, which two strategies does the lecture highlight for combating sarcopenia?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "zh": "維持健康體重、長期臥床",
+        "en": "Maintain a healthy weight; prolonged bed rest"
+      },
+      {
+        "id": "b",
+        "zh": "維持健康體重、阻力訓練",
+        "en": "Maintain a healthy weight; resistance training"
+      },
+      {
+        "id": "c",
+        "zh": "刻意增至過重、阻力訓練",
+        "en": "Deliberately become overweight; resistance training"
+      },
+      {
+        "id": "d",
+        "zh": "長期臥床、刻意增至過重",
+        "en": "Prolonged bed rest; deliberately become overweight"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": {
+      "zh": "按講義，維持健康體重和阻力訓練都是重要方法。",
+      "en": "The lecture highlights maintaining a healthy weight and doing resistance training."
+    },
+    "sourceId": "M6",
+    "sourcePage": 13,
+    "type": "mcq",
+    "sources": [],
+    "medicalReviewRequired": false
+  },
+  {
+    "id": "M7",
+    "difficulty": "easy",
+    "topic": "sarcopenic_obesity",
+    "question": {
+      "zh": "講義中的「肌少型肥胖」是指甚麼？",
+      "en": "What does “sarcopenic obesity” mean in the lecture?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "zh": "體脂和肌肉量都偏低",
+        "en": "Low body fat and low muscle mass"
+      },
+      {
+        "id": "b",
+        "zh": "體脂偏低，同時肌肉量增加",
+        "en": "Low body fat together with increased muscle mass"
+      },
+      {
+        "id": "c",
+        "zh": "體脂過多，同時肌肉量增加",
+        "en": "Excess body fat together with increased muscle mass"
+      },
+      {
+        "id": "d",
+        "zh": "體脂過多，同時肌肉量減少",
+        "en": "Excess body fat together with reduced muscle mass"
+      }
+    ],
+    "correctOptionId": "d",
+    "explanation": {
+      "zh": "「肌少型肥胖」指體脂過多，同時肌肉量減少。",
+      "en": "Sarcopenic obesity means excess body fat together with reduced muscle mass."
+    },
+    "sourceId": "M7",
+    "sourcePage": 15,
+    "type": "mcq",
+    "sources": [],
+    "medicalReviewRequired": false
+  },
+  {
+    "id": "M8",
+    "difficulty": "easy",
+    "topic": "poor_appetite",
+    "question": {
+      "zh": "對體重過輕或胃口欠佳的人，講義建議怎樣安排進餐？",
+      "en": "What meal pattern does the lecture suggest for someone who is underweight or has a poor appetite?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "zh": "每隔一天才進餐",
+        "en": "Eat only every other day"
+      },
+      {
+        "id": "b",
+        "zh": "每天只吃兩頓大餐",
+        "en": "Two large meals a day"
+      },
+      {
+        "id": "c",
+        "zh": "每天吃五至六次小餐",
+        "en": "Five to six small meals a day"
+      },
+      {
+        "id": "d",
+        "zh": "每天只吃一頓大餐",
+        "en": "One large meal a day"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": {
+      "zh": "按講義，可少食多餐，每天吃五至六次小餐。",
+      "en": "The lecture suggests five to six small meals each day."
+    },
+    "sourceId": "M8",
+    "sourcePage": 17,
+    "type": "mcq",
+    "sources": [],
+    "medicalReviewRequired": false
+  },
+  {
+    "id": "M9",
+    "difficulty": "easy",
+    "topic": "poor_appetite",
+    "question": {
+      "zh": "對胃口欠佳的人，講義建議怎樣安排飲品和正餐？",
+      "en": "For someone with a poor appetite, how does the lecture suggest timing drinks and meals?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "zh": "用飲品代替所有正餐",
+        "en": "Replace all meals with drinks"
+      },
+      {
+        "id": "b",
+        "zh": "飲品與正餐分開",
+        "en": "Have drinks separately from meals"
+      },
+      {
+        "id": "c",
+        "zh": "每一口食物都配大量飲品",
+        "en": "Have a large drink with every bite"
+      },
+      {
+        "id": "d",
+        "zh": "整天完全不喝任何飲品",
+        "en": "Avoid all drinks throughout the day"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": {
+      "zh": "按講義，飲品與正餐應分開。",
+      "en": "The lecture recommends separating fluids from meals."
+    },
+    "sourceId": "M9",
+    "sourcePage": 17,
+    "type": "mcq",
+    "sources": [],
+    "medicalReviewRequired": false
+  },
+  {
+    "id": "M10",
+    "difficulty": "easy",
+    "topic": "poor_appetite",
+    "question": {
+      "zh": "對胃口欠佳的人，講義建議優先選擇哪類食物？",
+      "en": "Which foods does the lecture suggest prioritising for someone with a poor appetite?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "zh": "高能量、低蛋白質食物",
+        "en": "High-energy, low-protein foods"
+      },
+      {
+        "id": "b",
+        "zh": "低能量、低蛋白質食物",
+        "en": "Low-energy, low-protein foods"
+      },
+      {
+        "id": "c",
+        "zh": "高能量、高蛋白質食物",
+        "en": "High-energy, high-protein foods"
+      },
+      {
+        "id": "d",
+        "zh": "低能量、高蛋白質食物",
+        "en": "Low-energy, high-protein foods"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": {
+      "zh": "按講義，應優先選擇高能量和高蛋白質的食物。",
+      "en": "The lecture recommends prioritising high-energy and high-protein foods."
+    },
+    "sourceId": "M10",
+    "sourcePage": 17,
+    "type": "mcq",
+    "sources": [],
+    "medicalReviewRequired": false
+  },
+  {
+    "id": "M11",
+    "difficulty": "easy",
+    "topic": "meal_fortification",
+    "question": {
+      "zh": "講義用哪一項作為加進正餐的蛋白質食物例子？",
+      "en": "Which food is shown in the lecture as a protein addition to a main meal?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "zh": "牛油",
+        "en": "Butter"
+      },
+      {
+        "id": "b",
+        "zh": "食油",
+        "en": "Cooking oil"
+      },
+      {
+        "id": "c",
+        "zh": "雞蛋",
+        "en": "Egg"
+      },
+      {
+        "id": "d",
+        "zh": "蜜糖",
+        "en": "Honey"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": {
+      "zh": "講義列出的蛋白質食物例子包括雞蛋、魚片和肉類。",
+      "en": "The lecture’s examples of protein additions include egg, fish slices and meat."
+    },
+    "sourceId": "M11",
+    "sourcePage": 18,
+    "type": "mcq",
+    "sources": [],
+    "medicalReviewRequired": false
+  },
+  {
+    "id": "M12",
+    "difficulty": "easy",
+    "topic": "protein_functions",
+    "question": {
+      "zh": "除了建立肌肉，哪一組兩項都是講義列出的蛋白質作用？",
+      "en": "Besides building muscle, which pair contains two protein functions listed in the lecture?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "zh": "支持免疫功能、減少肌肉量",
+        "en": "Support immunity; reduce muscle mass"
+      },
+      {
+        "id": "b",
+        "zh": "減少肌肉量、令骨質密度下降",
+        "en": "Reduce muscle mass; reduce bone density"
+      },
+      {
+        "id": "c",
+        "zh": "令骨質密度下降、幫助傷口癒合",
+        "en": "Reduce bone density; help wounds heal"
+      },
+      {
+        "id": "d",
+        "zh": "支持免疫功能、幫助傷口癒合",
+        "en": "Support immunity; help wounds heal"
+      }
+    ],
+    "correctOptionId": "d",
+    "explanation": {
+      "zh": "按講義，蛋白質有助支持免疫功能和傷口癒合，也參與組織建立與再生。",
+      "en": "The lecture lists immune support and wound healing, as well as building and regenerating tissues."
+    },
+    "sourceId": "M12",
+    "sourcePage": 19,
+    "type": "mcq",
+    "sources": [],
+    "medicalReviewRequired": false
+  },
+  {
+    "id": "M13",
+    "difficulty": "easy",
+    "topic": "protein_distribution",
+    "question": {
+      "zh": "講義建議把一天的蛋白質怎樣分配？",
+      "en": "How does the lecture recommend spreading protein across the day?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "zh": "全部放在早餐",
+        "en": "Have all of it at breakfast"
+      },
+      {
+        "id": "b",
+        "zh": "平均分配在早、午、晚三餐",
+        "en": "Spread it equally across breakfast, lunch and dinner"
+      },
+      {
+        "id": "c",
+        "zh": "全部放在晚餐",
+        "en": "Have all of it at dinner"
+      },
+      {
+        "id": "d",
+        "zh": "全部放在午餐",
+        "en": "Have all of it at lunch"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": {
+      "zh": "按講義，蛋白質應平均分配在三頓正餐。",
+      "en": "The lecture recommends distributing protein equally across the three main meals."
+    },
+    "sourceId": "M13",
+    "sourcePage": 22,
+    "type": "mcq",
+    "sources": [],
+    "medicalReviewRequired": false
+  },
+  {
+    "id": "M14",
+    "difficulty": "easy",
+    "topic": "animal_protein",
+    "question": {
+      "zh": "哪一組兩項都是講義列出的動物蛋白質食物？",
+      "en": "Which pair contains two animal-protein food groups listed in the lecture?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "zh": "肉類、奶類製品",
+        "en": "Meat; dairy products"
+      },
+      {
+        "id": "b",
+        "zh": "豆腐、奶類製品",
+        "en": "Tofu; dairy products"
+      },
+      {
+        "id": "c",
+        "zh": "豆腐、豆類",
+        "en": "Tofu; legumes"
+      },
+      {
+        "id": "d",
+        "zh": "肉類、豆類",
+        "en": "Meat; legumes"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": {
+      "zh": "肉類和奶類製品都是講義列出的動物蛋白質食物。",
+      "en": "Meat and dairy products are both listed as animal-protein foods."
+    },
+    "sourceId": "M14",
+    "sourcePage": 24,
+    "type": "mcq",
+    "sources": [],
+    "medicalReviewRequired": false
+  },
+  {
+    "id": "M15",
+    "difficulty": "easy",
+    "topic": "plant_protein",
+    "question": {
+      "zh": "哪一組兩項都是講義列出的植物蛋白質食物？",
+      "en": "Which pair contains two plant-protein foods listed in the lecture?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "zh": "豆腐、杏仁",
+        "en": "Tofu; almonds"
+      },
+      {
+        "id": "b",
+        "zh": "豆腐、雞蛋",
+        "en": "Tofu; eggs"
+      },
+      {
+        "id": "c",
+        "zh": "魚、雞蛋",
+        "en": "Fish; eggs"
+      },
+      {
+        "id": "d",
+        "zh": "魚、杏仁",
+        "en": "Fish; almonds"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": {
+      "zh": "豆腐和杏仁都是講義列出的植物蛋白質食物。",
+      "en": "Tofu and almonds are both listed as plant-protein foods."
+    },
+    "sourceId": "M15",
+    "sourcePage": 25,
+    "type": "mcq",
+    "sources": [],
+    "medicalReviewRequired": false
+  },
+  {
+    "id": "M16",
+    "difficulty": "easy",
+    "topic": "quinoa",
+    "question": {
+      "zh": "講義建議用藜麥代替哪一種食物？",
+      "en": "Which food does the lecture suggest replacing with quinoa?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "zh": "魚",
+        "en": "Fish"
+      },
+      {
+        "id": "b",
+        "zh": "牛奶",
+        "en": "Milk"
+      },
+      {
+        "id": "c",
+        "zh": "雞蛋",
+        "en": "Eggs"
+      },
+      {
+        "id": "d",
+        "zh": "白飯",
+        "en": "White rice"
+      }
+    ],
+    "correctOptionId": "d",
+    "explanation": {
+      "zh": "按講義，藜麥可以代替白飯，也可以加入沙律。",
+      "en": "The lecture suggests using quinoa instead of white rice or adding it to a salad."
+    },
+    "sourceId": "M16",
+    "sourcePage": 26,
+    "type": "mcq",
+    "sources": [],
+    "medicalReviewRequired": false
+  },
+  {
+    "id": "M17",
+    "difficulty": "easy",
+    "topic": "vitamin_d_functions",
+    "question": {
+      "zh": "哪一組兩項都是講義列出的維他命D作用？",
+      "en": "Which pair contains two vitamin D functions listed in the lecture?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "zh": "減弱肌肉力量、增加跌倒風險",
+        "en": "Weaken muscle strength; increase fall risk"
+      },
+      {
+        "id": "b",
+        "zh": "減弱肌肉力量、維持免疫功能",
+        "en": "Weaken muscle strength; maintain immune function"
+      },
+      {
+        "id": "c",
+        "zh": "維持骨骼健康、增加跌倒風險",
+        "en": "Maintain bone health; increase fall risk"
+      },
+      {
+        "id": "d",
+        "zh": "維持骨骼健康、維持免疫功能",
+        "en": "Maintain bone health; maintain immune function"
+      }
+    ],
+    "correctOptionId": "d",
+    "explanation": {
+      "zh": "按講義，維他命D有助維持骨骼健康和免疫功能，也調節神經及肌肉功能。",
+      "en": "The lecture lists maintaining bone health and immune function, as well as regulating nerve and muscle function."
+    },
+    "sourceId": "M17",
+    "sourcePage": 27,
+    "type": "mcq",
+    "sources": [],
+    "medicalReviewRequired": false
+  },
+  {
+    "id": "M18",
+    "difficulty": "easy",
+    "topic": "vitamin_d_foods",
+    "question": {
+      "zh": "哪一組兩項都是講義列出的維他命D食物來源？",
+      "en": "Which pair contains two food sources of vitamin D listed in the lecture?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "zh": "蛋黃、添加維他命D的牛奶",
+        "en": "Egg yolk; vitamin-D-fortified milk"
+      },
+      {
+        "id": "b",
+        "zh": "蘋果、白飯",
+        "en": "Apple; white rice"
+      },
+      {
+        "id": "c",
+        "zh": "蜜糖、食油",
+        "en": "Honey; cooking oil"
+      },
+      {
+        "id": "d",
+        "zh": "蛋白、白飯",
+        "en": "Egg white; white rice"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": {
+      "zh": "蛋黃和添加維他命D的牛奶都是講義列出的維他命D來源。",
+      "en": "Egg yolk and vitamin-D-fortified milk are both listed as vitamin D sources."
+    },
+    "sourceId": "M18",
+    "sourcePage": 28,
+    "type": "mcq",
+    "sources": [],
+    "medicalReviewRequired": false
+  },
+  {
+    "id": "M19",
+    "difficulty": "hard",
+    "topic": "omega3_fish",
+    "question": {
+      "zh": "哪一組魚類都在講義的Omega-3食物例子中？",
+      "en": "Which pair of fish is included in the lecture’s omega-3 food examples?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "zh": "吞拿魚、鱸魚",
+        "en": "Tuna; sea bass"
+      },
+      {
+        "id": "b",
+        "zh": "鱈魚、比目魚",
+        "en": "Cod; flounder"
+      },
+      {
+        "id": "c",
+        "zh": "鯉魚、羅非魚",
+        "en": "Carp; tilapia"
+      },
+      {
+        "id": "d",
+        "zh": "三文魚、鯖魚",
+        "en": "Salmon; mackerel"
+      }
+    ],
+    "correctOptionId": "d",
+    "explanation": {
+      "zh": "三文魚和鯖魚都是講義列出的Omega-3魚類例子。 本題只問講義的例子，不是在判定其他魚是否含 omega-3。",
+      "en": "Salmon and mackerel are both among the lecture’s fish examples for omega-3. This asks for the lecture’s examples, not whether other fish contain omega-3."
+    },
+    "sourceId": "M19",
+    "sourcePage": 30,
+    "type": "mcq",
+    "sources": [],
+    "medicalReviewRequired": false
+  },
+  {
+    "id": "M20",
+    "difficulty": "easy",
+    "topic": "aerobic_exercise",
+    "question": {
+      "zh": "按講義，帶氧運動的主要健康作用是甚麼？",
+      "en": "According to the lecture, what is the main health role of aerobic activity?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "zh": "增加關節柔軟度",
+        "en": "Increase joint flexibility"
+      },
+      {
+        "id": "b",
+        "zh": "鍛鍊單腳站立的平衡力",
+        "en": "Train balance when standing on one leg"
+      },
+      {
+        "id": "c",
+        "zh": "鍛鍊肌肉和骨骼力量",
+        "en": "Build muscle and bone strength"
+      },
+      {
+        "id": "d",
+        "zh": "維持心臟和血管健康",
+        "en": "Maintain heart and blood-vessel health"
+      }
+    ],
+    "correctOptionId": "d",
+    "explanation": {
+      "zh": "講義列出的主要作用是維持心血管健康，即心臟和血管的健康。",
+      "en": "The lecture identifies cardiovascular health, meaning heart and blood-vessel health, as the main role."
+    },
+    "sourceId": "M20",
+    "sourcePage": 32,
+    "type": "mcq",
+    "sources": [],
+    "medicalReviewRequired": false
+  },
+  {
+    "id": "H1",
+    "difficulty": "hard",
+    "topic": "definition",
+    "question": {
+      "zh": "按 EWGSOP2 定義，哪組正確列出「疑似肌少症」的發現及「確診」所需的額外發現？",
+      "en": "Under EWGSOP2, which findings indicate probable sarcopenia and the additional finding needed to confirm it?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "zh": "疑似：肌力低；確診另需：肌肉量或質素低",
+        "en": "Probable: low strength; confirmation also needs low muscle quantity or quality"
+      },
+      {
+        "id": "b",
+        "zh": "疑似：肌力低；確診另需：步速慢",
+        "en": "Probable: low strength; confirmation also needs slow walking"
+      },
+      {
+        "id": "c",
+        "zh": "疑似：步速慢；確診另需：骨質密度低",
+        "en": "Probable: slow walking; confirmation also needs low bone density"
+      },
+      {
+        "id": "d",
+        "zh": "疑似：肌肉量低；確診另需：肌力低",
+        "en": "Probable: low muscle quantity; confirmation also needs low strength"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": {
+      "zh": "EWGSOP2 以肌力低表示疑似肌少症，再以肌肉量或質素低確認診斷。這題採用此框架。",
+      "en": "Under EWGSOP2, low muscle strength indicates probable sarcopenia; low muscle quantity or quality confirms the diagnosis."
+    },
+    "sourceId": "H1",
+    "sourcePage": 3,
+    "medicalReviewRequired": false,
+    "type": "mcq",
+    "sources": [
+      {
+        "title": "EWGSOP2 肌少症共識（2019）",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6322506/"
+      }
+    ]
+  },
+  {
+    "id": "H2",
+    "difficulty": "hard",
+    "topic": "ageing_mechanisms",
+    "question": {
+      "zh": "按講義，哪一組的三項都是與衰老有關、可促成肌少症的過程？",
+      "en": "According to the lecture, which set contains three age-related processes that contribute to sarcopenia?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "zh": "荷爾蒙變化、慢性低度炎症、線粒體功能障礙",
+        "en": "Hormonal changes, chronic low-grade inflammation, mitochondrial dysfunction"
+      },
+      {
+        "id": "b",
+        "zh": "肌力增加、慢性低度炎症、線粒體功能障礙",
+        "en": "Increased muscle strength, chronic low-grade inflammation, mitochondrial dysfunction"
+      },
+      {
+        "id": "c",
+        "zh": "荷爾蒙變化、肌肉量增加、線粒體功能障礙",
+        "en": "Hormonal changes, increased muscle mass, mitochondrial dysfunction"
+      },
+      {
+        "id": "d",
+        "zh": "荷爾蒙變化、慢性低度炎症、線粒體功能改善",
+        "en": "Hormonal changes, chronic low-grade inflammation, improved mitochondrial function"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": {
+      "zh": "這三項是荷爾蒙變化、慢性低度炎症及線粒體功能障礙，均在講義的成因名單內。",
+      "en": "Hormonal changes, chronic low-grade inflammation and mitochondrial dysfunction are all listed contributors."
+    },
+    "sourceId": "H2",
+    "sourcePage": 6,
+    "medicalReviewRequired": false,
+    "type": "mcq",
+    "sources": []
+  },
+  {
+    "id": "H3",
+    "difficulty": "hard",
+    "topic": "consequences",
+    "question": {
+      "zh": "按「骨骼、獨立生活、代謝」的次序，哪一組都是講義列出的肌少症後果？",
+      "en": "In the order bones, independence and metabolism, which set contains consequences of sarcopenia listed in the lecture?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "zh": "骨質密度下降、日常活動困難、胰島素阻抗減少",
+        "en": "Lower bone density, difficulty with daily activities, reduced insulin resistance"
+      },
+      {
+        "id": "b",
+        "zh": "骨質密度下降、日常活動困難、胰島素阻抗增加",
+        "en": "Lower bone density, difficulty with daily activities, increased insulin resistance"
+      },
+      {
+        "id": "c",
+        "zh": "骨質密度上升、日常活動困難、胰島素阻抗增加",
+        "en": "Higher bone density, difficulty with daily activities, increased insulin resistance"
+      },
+      {
+        "id": "d",
+        "zh": "骨質密度下降、生活更獨立、胰島素阻抗增加",
+        "en": "Lower bone density, greater independence, increased insulin resistance"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": {
+      "zh": "三項依次是骨質密度下降、日常活動困難，以及胰島素阻抗增加。",
+      "en": "The three consequences are lower bone density, difficulty with daily activities and increased insulin resistance."
+    },
+    "sourceId": "H3",
+    "sourcePage": 8,
+    "medicalReviewRequired": false,
+    "type": "mcq",
+    "sources": []
+  },
+  {
+    "id": "H4",
+    "difficulty": "hard",
+    "topic": "comorbidities",
+    "question": {
+      "zh": "講義談及肌少症與其他疾病並存時，列出哪四類疾病？",
+      "en": "Which four disease groups are listed on the lecture slide about sarcopenia as a comorbid disease?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "zh": "心血管疾病、呼吸系統疾病、糖尿病、骨質疏鬆症",
+        "en": "Cardiovascular disease, respiratory diseases, diabetes, osteoporosis"
+      },
+      {
+        "id": "b",
+        "zh": "心血管疾病、抑鬱症、糖尿病、認知障礙症",
+        "en": "Cardiovascular disease, depression, diabetes, dementia"
+      },
+      {
+        "id": "c",
+        "zh": "心血管疾病、呼吸系統疾病、糖尿病、認知障礙症",
+        "en": "Cardiovascular disease, respiratory diseases, diabetes, dementia"
+      },
+      {
+        "id": "d",
+        "zh": "心血管疾病、呼吸系統疾病、慢性腎病、認知障礙症",
+        "en": "Cardiovascular disease, respiratory diseases, chronic kidney disease, dementia"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": {
+      "zh": "這頁列出心血管疾病、呼吸系統疾病、糖尿病和認知障礙症；本題只問講義的四類例子。",
+      "en": "The slide lists cardiovascular disease, respiratory diseases, diabetes and dementia. This question asks only for those four examples."
+    },
+    "sourceId": "H4",
+    "sourcePage": 9,
+    "medicalReviewRequired": false,
+    "type": "mcq",
+    "sources": []
+  },
+  {
+    "id": "H5",
+    "difficulty": "easy",
+    "topic": "warning_signs",
+    "question": {
+      "zh": "以下哪一組三項都是講義列出的肌少症可能徵兆？",
+      "en": "Which set contains three possible signs of sarcopenia listed in the lecture?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "zh": "容易疲倦、走路慢、沒有刻意減肥卻體重下降",
+        "en": "Tiring easily, slow walking, losing weight without trying"
+      },
+      {
+        "id": "b",
+        "zh": "精力充沛、走路慢、體重增加",
+        "en": "Feeling energetic, slow walking, weight gain"
+      },
+      {
+        "id": "c",
+        "zh": "容易疲倦、走路快、體重增加",
+        "en": "Tiring easily, fast walking, weight gain"
+      },
+      {
+        "id": "d",
+        "zh": "精力充沛、走路快、沒有刻意減肥卻體重下降",
+        "en": "Feeling energetic, fast walking, losing weight without trying"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": {
+      "zh": "三項是容易疲倦、走路慢，以及非刻意的體重下降；講義把它們列為可能徵兆。",
+      "en": "The three signs are getting exhausted easily, slow walking and unintentional weight loss. The lecture lists all three as possible signs."
+    },
+    "sourceId": "H5",
+    "sourcePage": 10,
+    "medicalReviewRequired": false,
+    "type": "mcq",
+    "sources": []
+  },
+  {
+    "id": "H6",
+    "difficulty": "easy",
+    "topic": "age_groups",
+    "question": {
+      "zh": "按亞洲肌少症工作組（AWGS）2025 共識，目標是哪兩個年齡組別？",
+      "en": "Which two age groups are targeted in the AWGS 2025 consensus?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "zh": "18–39 歲，以及 65 歲或以上",
+        "en": "Adults aged 18–39 and 65 or older"
+      },
+      {
+        "id": "b",
+        "zh": "50–64 歲的中年人，以及 65 歲或以上的長者",
+        "en": "Middle-aged adults aged 50–64 and older adults 65 or older"
+      },
+      {
+        "id": "c",
+        "zh": "18–39 歲，以及 40–49 歲",
+        "en": "Adults aged 18–39 and 40–49"
+      },
+      {
+        "id": "d",
+        "zh": "40–49 歲，以及 50–64 歲",
+        "en": "Adults aged 40–49 and 50–64"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": {
+      "zh": "年齡組別為 50–64 歲的中年人，以及 65 歲或以上的長者；65 歲也包括在內。",
+      "en": "The age groups are middle-aged adults aged 50–64 and older adults aged 65 or older, including age 65."
+    },
+    "sourceId": "H6",
+    "sourcePage": 11,
+    "medicalReviewRequired": false,
+    "type": "mcq",
+    "sources": [
+      {
+        "title": "AWGS 2025 共識更新",
+        "url": "https://www.nature.com/articles/s43587-025-01004-y"
+      }
+    ]
+  },
+  {
+    "id": "H7",
+    "difficulty": "hard",
+    "topic": "sarcopenic_obesity",
+    "question": {
+      "zh": "按講義，哪一項正確描述肌少型肥胖，並列出兩項相關代謝風險？",
+      "en": "According to the lecture, which option correctly describes sarcopenic obesity and gives two associated metabolic risks?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "zh": "體脂過多、肌肉量減少；胰島素阻抗、糖尿病",
+        "en": "Excess body fat with reduced muscle mass; insulin resistance and diabetes"
+      },
+      {
+        "id": "b",
+        "zh": "體脂過少、肌肉量減少；胰島素阻抗、糖尿病",
+        "en": "Too little body fat with reduced muscle mass; insulin resistance and diabetes"
+      },
+      {
+        "id": "c",
+        "zh": "體脂過多、肌肉量增加；胰島素阻抗、糖尿病",
+        "en": "Excess body fat with increased muscle mass; insulin resistance and diabetes"
+      },
+      {
+        "id": "d",
+        "zh": "體脂過多、肌肉量減少；血糖過低、血脂過低",
+        "en": "Excess body fat with reduced muscle mass; low blood sugar and low blood lipid levels"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": {
+      "zh": "肌少型肥胖是體脂過多並伴隨肌肉量減少。講義列出的代謝風險包括胰島素阻抗、糖尿病和血脂異常。",
+      "en": "Sarcopenic obesity means excess body fat with reduced muscle mass. Listed metabolic risks include insulin resistance, diabetes and dyslipidemia."
+    },
+    "sourceId": "H7",
+    "sourcePage": 15,
+    "medicalReviewRequired": false,
+    "type": "mcq",
+    "sources": []
+  },
+  {
+    "id": "H8",
+    "difficulty": "easy",
+    "topic": "poor_appetite",
+    "question": {
+      "zh": "一位體重過輕、食慾不佳的人，哪三個做法符合講義建議？",
+      "en": "For someone who is underweight and has a poor appetite, which three habits match the lecture's advice?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "zh": "每天 5–6 次小餐、每餐先喝大量飲品、先喝湯",
+        "en": "Eat 5–6 small meals, start each meal with plenty of fluids, drink soup first"
+      },
+      {
+        "id": "b",
+        "zh": "每天 5–6 次小餐、飲品與正餐分開、先喝湯",
+        "en": "Eat 5–6 small meals, separate fluids from meals, drink soup first"
+      },
+      {
+        "id": "c",
+        "zh": "每天 5–6 次小餐、飲品與正餐分開、最後才喝湯",
+        "en": "Eat 5–6 small meals, separate fluids from meals, drink soup last"
+      },
+      {
+        "id": "d",
+        "zh": "每天只吃一餐、飲品與正餐分開、最後才喝湯",
+        "en": "Eat only one meal a day, separate fluids from meals, drink soup last"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": {
+      "zh": "講義建議每天 5–6 次小餐、飲品與正餐分開、最後才喝湯，也可選擇高能量及高蛋白質食物。",
+      "en": "The lecture suggests 5–6 small meals, separating fluids from meals, drinking soup last and choosing high-energy, high-protein foods."
+    },
+    "sourceId": "H8",
+    "sourcePage": 17,
+    "medicalReviewRequired": false,
+    "type": "mcq",
+    "sources": []
+  },
+  {
+    "id": "H9",
+    "difficulty": "hard",
+    "topic": "meal_fortification",
+    "question": {
+      "zh": "按講義的加強餐膳一頁，哪組正確列出兩種蛋白質加料和兩種高能量加料？",
+      "en": "According to the meal-fortification slide, which set correctly gives two protein additions and two energy-rich additions?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "zh": "蛋白質：雞蛋、魚片；高能量：牛油、蜜糖",
+        "en": "Protein: egg and fish slices; energy-rich: butter and honey"
+      },
+      {
+        "id": "b",
+        "zh": "蛋白質：雞蛋、蜜糖；高能量：牛油、魚片",
+        "en": "Protein: egg and honey; energy-rich: butter and fish slices"
+      },
+      {
+        "id": "c",
+        "zh": "蛋白質：牛油、蜜糖；高能量：雞蛋、魚片",
+        "en": "Protein: butter and honey; energy-rich: egg and fish slices"
+      },
+      {
+        "id": "d",
+        "zh": "蛋白質：牛油、魚片；高能量：雞蛋、蜜糖",
+        "en": "Protein: butter and fish slices; energy-rich: egg and honey"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": {
+      "zh": "按講義，雞蛋和魚片可增加蛋白質；牛油和蜜糖是高能量加料的例子。",
+      "en": "In the lecture, egg and fish slices are protein additions; butter and honey are examples of energy-rich additions."
+    },
+    "sourceId": "H9",
+    "sourcePage": 18,
+    "medicalReviewRequired": false,
+    "type": "mcq",
+    "sources": []
+  },
+  {
+    "id": "H10",
+    "difficulty": "easy",
+    "topic": "protein_functions",
+    "question": {
+      "zh": "哪一組完整列出講義中蛋白質的四項功能？",
+      "en": "Which set gives all four functions of protein shown in the lecture?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "zh": "建立肌肉、建立身體組織、支持免疫、傷口癒合及組織再生",
+        "en": "Muscle building, building body tissues, supporting immunity, wound healing and tissue regeneration"
+      },
+      {
+        "id": "b",
+        "zh": "減少肌肉、建立身體組織、支持免疫、傷口癒合及組織再生",
+        "en": "Reducing muscle, building body tissues, supporting immunity, wound healing and tissue regeneration"
+      },
+      {
+        "id": "c",
+        "zh": "建立肌肉、建立身體組織、削弱免疫、傷口癒合及組織再生",
+        "en": "Muscle building, building body tissues, weakening immunity, wound healing and tissue regeneration"
+      },
+      {
+        "id": "d",
+        "zh": "建立肌肉、建立身體組織、支持免疫、減慢傷口癒合",
+        "en": "Muscle building, building body tissues, supporting immunity, slowing wound healing"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": {
+      "zh": "四項是建立肌肉、建立身體組織、支持免疫，以及傷口癒合與組織再生。",
+      "en": "The four functions are muscle building, building body tissues, supporting immunity, and wound healing with tissue regeneration."
+    },
+    "sourceId": "H10",
+    "sourcePage": 19,
+    "medicalReviewRequired": false,
+    "type": "mcq",
+    "sources": []
+  },
+  {
+    "id": "H11",
+    "difficulty": "hard",
+    "topic": "protein_pyramid",
+    "question": {
+      "zh": "講義的蛋白質優先次序金字塔，由底至頂的次序是甚麼？",
+      "en": "What is the order of the lecture's protein-prioritisation pyramid, from base to top?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "zh": "全日分配 → 攝取時間 → 每日總量 → 品質",
+        "en": "Distribution across the day → timing → total daily intake → quality"
+      },
+      {
+        "id": "b",
+        "zh": "品質 → 每日總量 → 攝取時間 → 全日分配",
+        "en": "Quality → total daily intake → timing → distribution across the day"
+      },
+      {
+        "id": "c",
+        "zh": "攝取時間 → 品質 → 全日分配 → 每日總量",
+        "en": "Timing → quality → distribution across the day → total daily intake"
+      },
+      {
+        "id": "d",
+        "zh": "每日總量 → 全日分配 → 品質 → 攝取時間",
+        "en": "Total daily intake → distribution across the day → quality → timing"
+      }
+    ],
+    "correctOptionId": "d",
+    "explanation": {
+      "zh": "由底至頂：每日蛋白質總攝取量、全日蛋白質分配、蛋白質品質、蛋白質攝取時間。",
+      "en": "From base to top: total daily protein intake, protein distribution across the day, protein quality and protein timing."
+    },
+    "sourceId": "H11",
+    "sourcePage": 20,
+    "medicalReviewRequired": false,
+    "type": "mcq",
+    "sources": []
+  },
+  {
+    "id": "H12",
+    "difficulty": "hard",
+    "topic": "kidney_protein",
+    "question": {
+      "zh": "按 PROT-AGE 建議，未透析慢性腎病患者哪個 eGFR 範圍屬一般長者蛋白質建議的例外？單位：mL/min/1.73 m²。",
+      "en": "Under PROT-AGE guidance, which eGFR range is an exception to general older-adult protein advice for CKD without dialysis? Units: mL/min/1.73 m²."
+    },
+    "options": [
+      {
+        "id": "a",
+        "zh": "30 至不足 60",
+        "en": "30 to below 60"
+      },
+      {
+        "id": "b",
+        "zh": "60 至不足 90",
+        "en": "60 to below 90"
+      },
+      {
+        "id": "c",
+        "zh": "低於 30",
+        "en": "Below 30"
+      },
+      {
+        "id": "d",
+        "zh": "90 或以上",
+        "en": "90 or above"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": {
+      "zh": "例外是嚴重慢性腎病：eGFR 低於 30 mL/min/1.73 m²，而且未接受透析。蛋白質攝取須由醫護按腎功能、營養狀況及治療個別評估。",
+      "en": "The exception is severe chronic kidney disease, with eGFR below 30 mL/min/1.73 m², without dialysis. A clinician should individualise protein intake based on kidney function, nutritional status and treatment."
+    },
+    "sourceId": "H12",
+    "sourcePage": 21,
+    "medicalReviewRequired": false,
+    "type": "mcq",
+    "sources": [
+      {
+        "title": "PROT-AGE 蛋白質建議",
+        "url": "https://doi.org/10.1016/j.jamda.2013.05.021"
+      },
+      {
+        "title": "KDIGO 2024 慢性腎病指引",
+        "url": "https://kdigo.org/wp-content/uploads/2024/03/KDIGO-2024-CKD-Guideline.pdf"
+      }
+    ]
+  },
+  {
+    "id": "H13",
+    "difficulty": "easy",
+    "topic": "protein_needs",
+    "question": {
+      "zh": "按講義，健康長者與患急性或慢性疾病的長者相比，哪組的蛋白質建議攝取範圍較高？",
+      "en": "According to the lecture, which group has the higher stated protein-intake range: healthy older adults or those with acute or chronic disease?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "zh": "患急性或慢性疾病的長者",
+        "en": "Older adults with acute or chronic disease"
+      },
+      {
+        "id": "b",
+        "zh": "兩組的範圍完全相同",
+        "en": "Both groups have exactly the same range"
+      },
+      {
+        "id": "c",
+        "zh": "健康長者",
+        "en": "Healthy older adults"
+      },
+      {
+        "id": "d",
+        "zh": "講義沒有列出這兩組的攝取範圍",
+        "en": "The lecture gives no intake range for these two groups"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": {
+      "zh": "講義列出患急性或慢性疾病長者的蛋白質攝取範圍較高，但不代表每位患者都應增加。須按個別臨床和營養需要評估，慢性腎病患者尤其要徵詢醫護意見。",
+      "en": "The lecture gives a higher range for older adults with acute or chronic disease. This does not mean every patient should increase protein. Individual clinical and nutritional needs matter, especially with chronic kidney disease."
+    },
+    "sourceId": "H13",
+    "sourcePage": 21,
+    "medicalReviewRequired": false,
+    "type": "mcq",
+    "sources": [
+      {
+        "title": "PROT-AGE 蛋白質建議",
+        "url": "https://doi.org/10.1016/j.jamda.2013.05.021"
+      },
+      {
+        "title": "KDIGO 2024 慢性腎病指引",
+        "url": "https://kdigo.org/wp-content/uploads/2024/03/KDIGO-2024-CKD-Guideline.pdf"
+      }
+    ]
+  },
+  {
+    "id": "H14",
+    "difficulty": "easy",
+    "topic": "protein_distribution",
+    "question": {
+      "zh": "一個人把大部分蛋白質留在晚餐吃。哪個改變最符合講義建議？",
+      "en": "A person eats most of their protein at dinner. Which change best matches the lecture's advice?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "zh": "把全部蛋白質改在早餐吃",
+        "en": "Move all protein to breakfast"
+      },
+      {
+        "id": "b",
+        "zh": "把蛋白質平均分配在早、午、晚三餐",
+        "en": "Distribute protein equally across breakfast, lunch and dinner"
+      },
+      {
+        "id": "c",
+        "zh": "繼續把大部分蛋白質留在晚餐",
+        "en": "Keep most protein at dinner"
+      },
+      {
+        "id": "d",
+        "zh": "把全部蛋白質改在午餐吃",
+        "en": "Move all protein to lunch"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": {
+      "zh": "講義建議把蛋白質平均分配在早餐、午餐和晚餐。",
+      "en": "The lecture recommends distributing protein equally across breakfast, lunch and dinner."
+    },
+    "sourceId": "H14",
+    "sourcePage": 22,
+    "medicalReviewRequired": false,
+    "type": "mcq",
+    "sources": []
+  },
+  {
+    "id": "H15",
+    "difficulty": "hard",
+    "topic": "plant_protein",
+    "question": {
+      "zh": "按「豆製品、豆類、果仁或種子、全穀物」的次序，哪組食物符合講義的例子？",
+      "en": "In the order soy products, legumes, nuts or seeds, and whole grains, which set matches the lecture's examples?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "zh": "藜麥、鷹嘴豆、奇亞籽、豆腐",
+        "en": "Quinoa, chickpeas, chia seeds, tofu"
+      },
+      {
+        "id": "b",
+        "zh": "豆腐、鷹嘴豆、藜麥、奇亞籽",
+        "en": "Tofu, chickpeas, quinoa, chia seeds"
+      },
+      {
+        "id": "c",
+        "zh": "豆腐、奇亞籽、鷹嘴豆、藜麥",
+        "en": "Tofu, chia seeds, chickpeas, quinoa"
+      },
+      {
+        "id": "d",
+        "zh": "豆腐、鷹嘴豆、奇亞籽、藜麥",
+        "en": "Tofu, chickpeas, chia seeds, quinoa"
+      }
+    ],
+    "correctOptionId": "d",
+    "explanation": {
+      "zh": "按講義，豆腐、鷹嘴豆、奇亞籽和藜麥，依次配對這四個類別。",
+      "en": "Tofu, chickpeas, chia seeds and quinoa respectively match the four categories in the lecture."
+    },
+    "sourceId": "H15",
+    "sourcePage": 25,
+    "medicalReviewRequired": false,
+    "type": "mcq",
+    "sources": []
+  },
+  {
+    "id": "H16",
+    "difficulty": "hard",
+    "topic": "quinoa",
+    "question": {
+      "zh": "除了蛋白質，講義特別提到藜麥含有哪三種營養素？",
+      "en": "Besides protein, which three nutrients in quinoa are highlighted in the lecture?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "zh": "維他命 B12、維他命 D、鎂",
+        "en": "Vitamin B12, vitamin D, magnesium"
+      },
+      {
+        "id": "b",
+        "zh": "膳食纖維、植物性鐵質、鎂",
+        "en": "Dietary fibre, plant-based iron, magnesium"
+      },
+      {
+        "id": "c",
+        "zh": "膳食纖維、維他命 B12、維他命 D",
+        "en": "Dietary fibre, vitamin B12, vitamin D"
+      },
+      {
+        "id": "d",
+        "zh": "膳食纖維、植物性鐵質、維他命 B12",
+        "en": "Dietary fibre, plant-based iron, vitamin B12"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": {
+      "zh": "講義特別提到膳食纖維、植物性鐵質和鎂。",
+      "en": "The lecture highlights dietary fibre, plant-based iron and magnesium."
+    },
+    "sourceId": "H16",
+    "sourcePage": 26,
+    "medicalReviewRequired": false,
+    "type": "mcq",
+    "sources": []
+  },
+  {
+    "id": "H17",
+    "difficulty": "easy",
+    "topic": "vitamin_d_functions",
+    "question": {
+      "zh": "按講義，哪三項肌肉或活動能力表現與較低的維他命 D 水平相關？",
+      "en": "According to the lecture, which three muscle or movement findings are associated with lower vitamin D levels?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "zh": "握力較低、走路較慢、跌倒風險減少",
+        "en": "Lower handgrip strength, slower walking, reduced fall risk"
+      },
+      {
+        "id": "b",
+        "zh": "握力較低、走路較快、跌倒風險增加",
+        "en": "Lower handgrip strength, faster walking, increased fall risk"
+      },
+      {
+        "id": "c",
+        "zh": "握力較高、走路較慢、跌倒風險增加",
+        "en": "Higher handgrip strength, slower walking, increased fall risk"
+      },
+      {
+        "id": "d",
+        "zh": "握力較低、走路較慢、跌倒風險增加",
+        "en": "Lower handgrip strength, slower walking, increased fall risk"
+      }
+    ],
+    "correctOptionId": "d",
+    "explanation": {
+      "zh": "講義列出的相關表現包括握力較低、走路較慢和跌倒風險增加。",
+      "en": "The lecture lists lower handgrip strength, slower walking and increased fall risk as associated findings."
+    },
+    "sourceId": "H17",
+    "sourcePage": 27,
+    "medicalReviewRequired": false,
+    "type": "mcq",
+    "sources": []
+  },
+  {
+    "id": "H18",
+    "difficulty": "easy",
+    "topic": "omega3_roles",
+    "question": {
+      "zh": "以下哪項對 omega-3 與肌肉健康的說法最準確？",
+      "en": "Which statement about omega-3 and muscle health is most accurate?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "zh": "保證每位長者的肌肉都會增長",
+        "en": "It guarantees muscle growth in every older adult"
+      },
+      {
+        "id": "b",
+        "zh": "可以完全代替飲食中的蛋白質",
+        "en": "It can completely replace dietary protein"
+      },
+      {
+        "id": "c",
+        "zh": "可能有助調節炎症，但對肌肉生長及恢復的實際益處仍未確定",
+        "en": "It may help regulate inflammation, but benefits for muscle growth and recovery remain uncertain"
+      },
+      {
+        "id": "d",
+        "zh": "可以完全代替阻力訓練",
+        "en": "It can completely replace resistance training"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": {
+      "zh": "Omega-3 可能有調節炎症等作用，但人體研究對肌肉生長及恢復的結果並不一致，不能保證效果，也不能代替足夠蛋白質和合適運動。",
+      "en": "Omega-3 may have roles such as regulating inflammation, but human research on muscle growth and recovery is inconsistent. Benefits are not guaranteed, and it does not replace adequate protein or suitable exercise."
+    },
+    "sourceId": "H18",
+    "sourcePage": 29,
+    "medicalReviewRequired": false,
+    "type": "mcq",
+    "sources": [
+      {
+        "title": "DO-HEALTH omega-3 與肌肉健康研究",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11970227/"
+      },
+      {
+        "title": "Omega-3 與肌肉蛋白合成研究（2011）",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/21159787/"
+      }
+    ]
+  },
+  {
+    "id": "H19",
+    "difficulty": "hard",
+    "topic": "exercise_components",
+    "question": {
+      "zh": "按講義，當衰弱及健康問題增加，基本帶氧運動以外要加入的三類訓練是哪一組？",
+      "en": "As frailty and health problems increase, which three additional training components are specified in the lecture?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "zh": "漸進式阻力訓練、柔軟度訓練、步態訓練",
+        "en": "Progressive resistance training, flexibility training, gait exercises"
+      },
+      {
+        "id": "b",
+        "zh": "柔軟度訓練、平衡訓練、步態訓練",
+        "en": "Flexibility training, balance exercises, gait exercises"
+      },
+      {
+        "id": "c",
+        "zh": "漸進式阻力訓練、平衡訓練、呼吸訓練",
+        "en": "Progressive resistance training, balance exercises, breathing exercises"
+      },
+      {
+        "id": "d",
+        "zh": "漸進式阻力訓練、平衡訓練、步態訓練",
+        "en": "Progressive resistance training, balance exercises, gait exercises"
+      }
+    ],
+    "correctOptionId": "d",
+    "explanation": {
+      "zh": "講義列出的三項是漸進式阻力訓練、平衡訓練和步態訓練。",
+      "en": "The three components are progressive resistance training, balance exercises and gait exercises."
+    },
+    "sourceId": "H19",
+    "sourcePage": 32,
+    "medicalReviewRequired": false,
+    "type": "mcq",
+    "sources": []
+  },
+  {
+    "id": "H20",
+    "difficulty": "hard",
+    "topic": "exercise_personalisation",
+    "question": {
+      "zh": "為長者度身設計運動計劃時，講義列出的四項考慮因素是哪一組？",
+      "en": "Which four factors does the lecture list for individualising an older adult’s exercise programme?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "zh": "年齡、衰弱程度、肌少症、運動喜好",
+        "en": "Age, frailty, sarcopenia, exercise preferences"
+      },
+      {
+        "id": "b",
+        "zh": "年齡、衰弱程度、肌少症、其他並存疾病",
+        "en": "Age, frailty, sarcopenia, other existing diseases"
+      },
+      {
+        "id": "c",
+        "zh": "年齡、衰弱程度、體重、其他並存疾病",
+        "en": "Age, frailty, body weight, other existing diseases"
+      },
+      {
+        "id": "d",
+        "zh": "年齡、運動經驗、肌少症、其他並存疾病",
+        "en": "Age, exercise experience, sarcopenia, other existing diseases"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": {
+      "zh": "這四項是年齡、衰弱程度、肌少症及其他並存疾病。本題只問講義列出的組合。",
+      "en": "The four listed factors are age, frailty, sarcopenia and comorbidities. This question asks for the lecture’s stated combination."
+    },
+    "sourceId": "H20",
+    "sourcePage": 32,
+    "medicalReviewRequired": false,
+    "type": "mcq",
+    "sources": []
+  }
+]
